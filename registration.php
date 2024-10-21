@@ -36,16 +36,16 @@
                 <label>
                     <span class="body-12bu">пароль</span>
                     <div class="input-wrap">
-                        <input type="email" class="form-input error-input" placeholder="Введите пароль">
-                        <img src="assets/img/eye.svg" alt="" class="pass-icon">
+                        <input type="text" class="form-input error-input" placeholder="Введите пароль">
+                        <div class="pass-btn pass-icon"></div>
                     </div>
                     <div class="error-text body-12m">Critical</div>
                 </label>
                 <label>
                     <span class="body-12bu">подтверждение пароля</span>
                     <div class="input-wrap">
-                        <input type="email" class="form-input" placeholder="Введите пароль">
-                        <img src="assets/img/eye.svg" alt="" class="pass-icon">
+                        <input type="text" class="form-input" placeholder="Введите пароль">
+                        <div class="pass-btn pass-icon"></div>
                     </div>
                 </label>
                 <div class="form-wrap-inner">

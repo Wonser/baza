@@ -112,50 +112,62 @@
             </div>
             <p class="h7">выберите способ оплаты</p>
             <div class="payments-list payments-list_filter">
-                <div class="payments-list-item" data-filter=".pay1" data-title="выберите платежную систему">
+                <label class="payments-list-item" data-filter=".pay1" data-title="выберите платежную систему">
+                    <input type="radio" value="payment1" name="payment">
                     <img src="assets/img/payment1.svg" alt="">
                     <p class="body-12mu">ru</p>
-                </div>
-                <div class="payments-list-item" data-filter=".pay2" data-title="выберите платежную систему">
+                </label>
+                <label class="payments-list-item" data-filter=".pay2" data-title="выберите платежную систему">
+                    <input type="radio" value="payment2" name="payment">
                     <img src="assets/img/payment2.svg" alt="">
                     <p class="body-12mu">ua</p>
-                </div>
-                <div class="payments-list-item" data-filter=".pay3" data-title="выберите платежную систему">
+                </label>
+                <label class="payments-list-item" data-filter=".pay3" data-title="выберите платежную систему">
+                    <input type="radio" value="payment3" name="payment">
                     <img src="assets/img/payment2.svg" alt="">
                     <p class="body-12mu">international</p>
-                </div>
-                <div class="payments-list-item" data-filter=".pay4" data-title="выберите платежную систему">
+                </label>
+                <label class="payments-list-item" data-filter=".pay4" data-title="выберите платежную систему">
+                    <input type="radio" value="payment4" name="payment">
                     <img src="assets/img/payment3.svg" alt="">
-                </div>
-                <div class="payments-list-item" data-filter=".pay5" data-title="свяжитесь с нами">
+                </label>
+                <label class="payments-list-item" data-filter=".pay5" data-title="свяжитесь с нами">
+                    <input type="radio" value="payment5" name="payment">
                     <img src="assets/img/payment4.svg" alt="">
                     <p class="body-12mu">manual mode</p>
-                </div>
-                <div class="payments-list-item" data-filter=".pay6" data-title="свяжитесь с нами">
+                </label>
+                <label class="payments-list-item" data-filter=".pay6" data-title="свяжитесь с нами">
+                    <input type="radio" value="payment6" name="payment">
                     <img src="assets/img/payment5.svg" alt="">
                     <p class="body-12mu">manual mode</p>
-                </div>
+                </label>
             </div>
             <p class="h7 pay-title">выберите платежную систему</p>
             <div class="payments-list payments-list_col">
-                <div class="payments-list-item pay1">
+                <label class="payments-list-item pay1">
+                    <input type="radio" value="paypalych" name="pay">
                     <img src="assets/img/payment6.svg" alt="">
-                </div>
-                <div class="payments-list-item pay1">
+                </label>
+                <label class="payments-list-item pay1">
+                    <input type="radio" value="prime" name="pay">
                     <img src="assets/img/payment7.svg" alt="">
-                </div>
-                <div class="payments-list-item pay4">
+                </label>
+                <label class="payments-list-item pay4">
+                    <input type="radio" value="cryptocloud" name="pay">
                     <img src="assets/img/payment8.svg" alt="">
-                </div>
-                <div class="payments-list-item pay2 pay3">
+                </label>
+                <label class="payments-list-item pay2 pay3">
+                    <input type="radio" value="unitpay" name="pay">
                     <img src="assets/img/payment9.svg" alt="">
-                </div>
-                <div class="payments-list-item pay5 pay6">
+                </label>
+                <label class="payments-list-item pay5 pay6">
+                    <input type="radio" value="telegram" name="pay">
                     <img src="assets/img/payment10.svg" alt="">
-                </div>
-                <div class="payments-list-item pay5 pay6">
+                </label>
+                <label class="payments-list-item pay5 pay6">
+                    <input type="radio" value="discord" name="pay">
                     <img src="assets/img/payment11.svg" alt="">
-                </div>
+                </label>
             </div>
             <p class="body-16rp">Цена может быть увеличена из-за комиссии платежной системы</p>
             <div class="prices">

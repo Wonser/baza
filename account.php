@@ -142,7 +142,7 @@
                         <p class="body-16rp">23 октября 2024, 20:54:33</p>
                     </div>
                     <div class="account-table-item-inner">
-                        <div class="primary-btn body-14mu change-btn">Изменить пароль</div>
+                        <div class="primary-btn body-14mu change-btn" data-login="MFlogin">Изменить пароль</div>
                     </div>
                 </div>
                 <div class="account-table-item">
@@ -153,7 +153,7 @@
                         <p class="body-16rp">23 октября 2024, 20:54:33</p>
                     </div>
                     <div class="account-table-item-inner">
-                        <div class="primary-btn body-14mu change-btn">Изменить пароль</div>
+                        <div class="primary-btn body-14mu change-btn" data-login="SAlogin2">Изменить пароль</div>
                     </div>
                 </div>
                 <div class="account-table-item">
@@ -164,7 +164,7 @@
                         <p class="body-16rp">23 октября 2024, 20:54:33</p>
                     </div>
                     <div class="account-table-item-inner">
-                        <div class="primary-btn body-14mu change-btn">Изменить пароль</div>
+                        <div class="primary-btn body-14mu change-btn" data-login="MFlogin">Изменить пароль</div>
                     </div>
                 </div>
                 <div class="account-table-item">
@@ -175,7 +175,7 @@
                         <p class="body-16rp">23 октября 2024, 20:54:33</p>
                     </div>
                     <div class="account-table-item-inner">
-                        <div class="primary-btn body-14mu change-btn">Изменить пароль</div>
+                        <div class="primary-btn body-14mu change-btn" data-login="SAlogin2">Изменить пароль</div>
                     </div>
                 </div>
             </div>
@@ -206,27 +206,27 @@
                 <label>
                     <span class="body-12bu">Префикс</span>
                     <div class="input-wrap">
-                        <input type="text" class="form-input" placeholder="MF" disabled>
-                        <img src="assets/img/refresh.svg" alt="" class="pass-icon">
+                        <input type="text" class="form-input" id="prefix" placeholder="MF" disabled>
+                        <div class="prefix-btn pass-icon"></div>
                     </div>
                 </label>
                 <label>
                     <span class="body-12bu">Логин</span>
-                    <input type="text" class="form-input" placeholder="Введите логгин">
+                    <input type="text" class="form-input" placeholder="Введите логин">
                 </label>
             </div>
             <label>
                 <span class="body-12bu">пароль</span>
                 <div class="input-wrap">
                     <input type="text" class="form-input" placeholder="Введите пароль">
-                    <img src="assets/img/eye.svg" alt="" class="pass-icon">
+                    <div class="pass-btn pass-icon"></div>
                 </div>
             </label>
             <label>
                 <span class="body-12bu">подтверждение пароля</span>
                 <div class="input-wrap">
                     <input type="text" class="form-input" placeholder="Введите пароль">
-                    <img src="assets/img/eye.svg" alt="" class="pass-icon">
+                    <div class="pass-btn pass-icon"></div>
                 </div>
             </label>
             <input type="submit" value="Создать аккаунт" class="main-btn body-14mu">
@@ -241,26 +241,27 @@
             <div class="arcticmodal-close form-wrap-close">
                 <img src="assets/img/close.svg" alt="svg" class="svg">
             </div>
+            <input type="hidden" name="changePassword" value="">
             <p class="h5">Изменить пароль</p>
             <label>
                 <span class="body-12bu">Текущий пароль</span>
                 <div class="input-wrap">
                     <input type="text" class="form-input" placeholder="Введите текущий пароль">
-                    <img src="assets/img/eye.svg" alt="" class="pass-icon">
+                    <div class="pass-btn pass-icon"></div>
                 </div>
             </label>
             <label>
                 <span class="body-12bu">Новый пароль</span>
                 <div class="input-wrap">
                     <input type="text" class="form-input" placeholder="Введите новый пароль">
-                    <img src="assets/img/eye.svg" alt="" class="pass-icon">
+                    <div class="pass-btn pass-icon"></div>
                 </div>
             </label>
             <label>
                 <span class="body-12bu">Подтвердите новый пароль</span>
                 <div class="input-wrap">
                     <input type="text" class="form-input" placeholder="Подтвердите новый пароль">
-                    <img src="assets/img/eye.svg" alt="" class="pass-icon">
+                    <div class="pass-btn pass-icon"></div>
                 </div>
             </label>
             <input type="submit" value="подтвердить" class="main-btn body-14mu">

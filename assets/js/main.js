@@ -291,6 +291,8 @@ jQuery(document).ready(function($) {
   });
 
   $(".change-btn").on('click', function () {
+    let login = $(this).data('login');
+    $('input[name=changePassword]').val(login);
     $('#changeModal').arcticmodal();
   });
 
@@ -323,6 +325,7 @@ jQuery(document).ready(function($) {
   $(".item-btn").on('click', function () {
     $('#sendModal').arcticmodal();
   });
+  
 
   $('#sendModal .main-btn').on('click', function () {
     $('#sendModal').arcticmodal('close');
@@ -569,8 +572,8 @@ jQuery(document).ready(function($) {
       var titleValue = $(this).attr('data-title');
       $('.pay-title').text(titleValue);
       $('.pay-title').fadeIn();
-      $('.payments-list_col').find('.payments-list-item').hide().removeClass('show active');
-      $('.payments-list_col').find(filterValue).fadeIn().addClass('show');
+      $('.payments-list_col').find('.payments-list-item').removeClass('show active');
+      $('.payments-list_col').find(filterValue).addClass('show');
   });
 
   let vh = window.innerHeight * 0.01;
@@ -578,121 +581,155 @@ jQuery(document).ready(function($) {
 document.documentElement.style.setProperty('--vh', `${vh}px`);
 
 
-const rippleSettings = {
-  maxSize: 100,
-  animationSpeed: 5,
-  strokeColor: [148, 217, 255],
-};
-
-const canvasSettings = {
-  blur: 8,
-  ratio: 1,
-};
-
-function Coords(x, y) {
-  this.x = x || null;
-  this.y = y || null;
-}
-
-const Ripple = function Ripple(x, y, circleSize, ctx) {
-  this.position = new Coords(x, y);
-  this.circleSize = circleSize;
-  this.maxSize = rippleSettings.maxSize;
-  this.opacity = 1;
-  this.ctx = ctx;
-  this.strokeColor = `rgba(${Math.floor(rippleSettings.strokeColor[0])},
-    ${Math.floor(rippleSettings.strokeColor[1])},
-    ${Math.floor(rippleSettings.strokeColor[2])},
-    ${this.opacity})`;
-
-  this.animationSpeed = rippleSettings.animationSpeed;
-  this.opacityStep = (this.animationSpeed / (this.maxSize - circleSize)) / 2;
-};
-
-Ripple.prototype = {
-  update: function update() {
-    this.circleSize = this.circleSize + this.animationSpeed;
-    this.opacity = this.opacity - this.opacityStep;
+if($('.banner').length) {
+  const rippleSettings = {
+    maxSize: 100,
+    animationSpeed: 5,
+    strokeColor: [148, 217, 255],
+  };
+  
+  const canvasSettings = {
+    blur: 8,
+    ratio: 1,
+  };
+  
+  function Coords(x, y) {
+    this.x = x || null;
+    this.y = y || null;
+  }
+  
+  const Ripple = function Ripple(x, y, circleSize, ctx) {
+    this.position = new Coords(x, y);
+    this.circleSize = circleSize;
+    this.maxSize = rippleSettings.maxSize;
+    this.opacity = 1;
+    this.ctx = ctx;
     this.strokeColor = `rgba(${Math.floor(rippleSettings.strokeColor[0])},
       ${Math.floor(rippleSettings.strokeColor[1])},
       ${Math.floor(rippleSettings.strokeColor[2])},
       ${this.opacity})`;
-  },
-  draw: function draw() {
-    this.ctx.beginPath();
-    this.ctx.strokeStyle = this.strokeColor;
-    this.ctx.arc(this.position.x, this.position.y, this.circleSize, 0,
-      2 * Math.PI);
-    this.ctx.stroke();
-  },
-  setStatus: function setStatus(status) {
-    this.status = status;
-  },
-};
-
-const canvas = document.querySelector('#canvas');
-const ctx = canvas.getContext('2d');
-const ripples = [];
-
-const height = $('.banner').outerHeight()*2;
-const width = document.body.clientWidth;
-
-const rippleStartStatus = 'start';
-
-const isIE11 = !!window.MSInputMethodContext && !!document.documentMode;
-
-canvas.style.filter = `blur(${canvasSettings.blur}px)`;
-
-canvas.width = width * canvasSettings.ratio;
-canvas.height = height * canvasSettings.ratio;
-
-canvas.style.width = `${width}px`;
-canvas.style.height = `${height}px`;
-
-let animationFrame;
-
-// Add GUI settings
-// const addGuiSettings = () => {
-//   const gui = new dat.GUI();
-//   gui.add(rippleSettings, 'maxSize', 0, 1000).step(1);
-//   gui.add(rippleSettings, 'animationSpeed', 1, 30).step(1);
-//   gui.addColor(rippleSettings, 'strokeColor');
-
-//   const blur = gui.add(canvasSettings, 'blur', 0, 20).step(1);
-//   blur.onChange((value) => {
-//     canvas.style.filter = `blur(${value}px)`;
-//   });
-// };
-
-// addGuiSettings();
-
-// Function which is executed on mouse hover on canvas
-const canvasMouseOver = (e) => {
-  const x = e.clientX * canvasSettings.ratio;
-  const y = e.clientY * canvasSettings.ratio;
-  ripples.unshift(new Ripple(x, y, 2, ctx));
-};
-
-const animation = () => {
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-  const length = ripples.length;
-  for (let i = length - 1; i >= 0; i -= 1) {
-    const r = ripples[i];
-
-    r.update();
-    r.draw();
-
-    if (r.opacity <= 0) {
-      ripples[i] = null;
-      delete ripples[i];
-      ripples.pop();
+  
+    this.animationSpeed = rippleSettings.animationSpeed;
+    this.opacityStep = (this.animationSpeed / (this.maxSize - circleSize)) / 2;
+  };
+  
+  Ripple.prototype = {
+    update: function update() {
+      this.circleSize = this.circleSize + this.animationSpeed;
+      this.opacity = this.opacity - this.opacityStep;
+      this.strokeColor = `rgba(${Math.floor(rippleSettings.strokeColor[0])},
+        ${Math.floor(rippleSettings.strokeColor[1])},
+        ${Math.floor(rippleSettings.strokeColor[2])},
+        ${this.opacity})`;
+    },
+    draw: function draw() {
+      this.ctx.beginPath();
+      this.ctx.strokeStyle = this.strokeColor;
+      this.ctx.arc(this.position.x, this.position.y, this.circleSize, 0,
+        2 * Math.PI);
+      this.ctx.stroke();
+    },
+    setStatus: function setStatus(status) {
+      this.status = status;
+    },
+  };
+  
+  const canvas = document.querySelector('#canvas');
+  const ctx = canvas.getContext('2d');
+  const ripples = [];
+  
+  const height = $('.banner').outerHeight()*2;
+  const width = document.body.clientWidth;
+  
+  const rippleStartStatus = 'start';
+  
+  const isIE11 = !!window.MSInputMethodContext && !!document.documentMode;
+  
+  canvas.style.filter = `blur(${canvasSettings.blur}px)`;
+  
+  canvas.width = width * canvasSettings.ratio;
+  canvas.height = height * canvasSettings.ratio;
+  
+  canvas.style.width = `${width}px`;
+  canvas.style.height = `${height}px`;
+  
+  let animationFrame;
+  
+  // Add GUI settings
+  // const addGuiSettings = () => {
+  //   const gui = new dat.GUI();
+  //   gui.add(rippleSettings, 'maxSize', 0, 1000).step(1);
+  //   gui.add(rippleSettings, 'animationSpeed', 1, 30).step(1);
+  //   gui.addColor(rippleSettings, 'strokeColor');
+  
+  //   const blur = gui.add(canvasSettings, 'blur', 0, 20).step(1);
+  //   blur.onChange((value) => {
+  //     canvas.style.filter = `blur(${value}px)`;
+  //   });
+  // };
+  
+  // addGuiSettings();
+  
+  // Function which is executed on mouse hover on canvas
+  const canvasMouseOver = (e) => {
+    const x = e.clientX * canvasSettings.ratio;
+    const y = e.clientY * canvasSettings.ratio;
+    ripples.unshift(new Ripple(x, y, 2, ctx));
+  };
+  
+  const animation = () => {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+  
+    const length = ripples.length;
+    for (let i = length - 1; i >= 0; i -= 1) {
+      const r = ripples[i];
+  
+      r.update();
+      r.draw();
+  
+      if (r.opacity <= 0) {
+        ripples[i] = null;
+        delete ripples[i];
+        ripples.pop();
+      }
     }
+    animationFrame = window.requestAnimationFrame(animation);
+  };
+  
+  animation();
+  canvas.addEventListener('mousemove', canvasMouseOver);
+}
+
+
+  function generatePrefix(length = 2) {
+    const possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    let prefix = "";
+
+    for (let i = 0; i < length; i++) {
+        const randomIndex = Math.floor(Math.random() * possible.length);
+        prefix += possible.charAt(randomIndex);
+    }
+
+    return prefix;
   }
-  animationFrame = window.requestAnimationFrame(animation);
-};
 
-animation();
-canvas.addEventListener('mousemove', canvasMouseOver);
+  $('#prefix').val(generatePrefix());
 
+  $('.prefix-btn').on('click', function (event) {
+    event.preventDefault();
+    const prefix = generatePrefix();
+    $('#prefix').val(prefix);
+  });
+
+  
+
+  $(".pass-btn").on('click', function () {
+    let passInput = $(this).parent().find('input');
+    $(this).toggleClass('active');
+    if (passInput.attr('type') == "password") {
+      passInput.attr('type', 'text');
+    } else {
+      passInput.attr('type', 'password');
+    }
+  });
 });

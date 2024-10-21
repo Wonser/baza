@@ -32,14 +32,14 @@
                     <span class="body-12bu">отправить ссылку</span>
                     <div class="input-wrap">
                         <input type="email" class="form-input" placeholder="Введите новый пароль">
-                        <img src="assets/img/eye.svg" alt="" class="pass-icon">
+                        <div class="pass-btn pass-icon"></div>
                     </div>
                 </label>
                 <label>
                     <span class="body-12bu">подтверждение нового пароля</span>
                     <div class="input-wrap">
                         <input type="email" class="form-input" placeholder="Подтвердите новый пароль">
-                        <img src="assets/img/eye.svg" alt="" class="pass-icon">
+                        <div class="pass-btn pass-icon"></div>
                     </div>
                 </label>
                 <input type="submit" value="подтвердить" class="main-btn body-14mu">

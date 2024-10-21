@@ -141,7 +141,7 @@
                             <span class="body-12bu">Текущий пароль</span>
                             <div class="input-wrap">
                                 <input type="text" class="form-input" placeholder="Введите текущий пароль">
-                                <img src="assets/img/eye.svg" alt="" class="pass-icon">
+                                <div class="pass-btn pass-icon"></div>
                             </div>
                         </label>
                         <div class="labels">
@@ -149,14 +149,14 @@
                                 <span class="body-12bu">Новый пароль</span>
                                 <div class="input-wrap">
                                     <input type="text" class="form-input" placeholder="Введите новый пароль">
-                                    <img src="assets/img/eye.svg" alt="" class="pass-icon">
+                                    <div class="pass-btn pass-icon"></div>
                                 </div>
                             </label>
                             <label>
                                 <span class="body-12bu">Повторить пароль</span>
                                 <div class="input-wrap">
                                     <input type="text" class="form-input" placeholder="Повторите новый пароль">
-                                    <img src="assets/img/eye.svg" alt="" class="pass-icon">
+                                    <div class="pass-btn pass-icon"></div>
                                 </div>
                             </label>
                         </div>

@@ -36,7 +36,7 @@
                     <span class="body-12bu">пароль</span>
                     <div class="input-wrap">
                         <input type="text" class="form-input" placeholder="Введите пароль">
-                        <img src="assets/img/eye.svg" alt="" class="pass-icon">
+                        <div class="pass-btn pass-icon"></div>
                     </div>
                 </label>
                 <div class="form-wrap-inner">
