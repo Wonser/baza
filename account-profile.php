@@ -175,6 +175,7 @@
                 <div class="profile-tab-wrap">
                     <p class="h5">Двухфакторная аутентификация (2FA)</p>
                     <div class="alert-text body-16mp">Двухфакторная аутентификация еще не включена</div>
+                    <div class="alert-text active body-16mp">Двухфакторная аутентификация включена</div>
                     <p class="body-16rp">
                         Двухфакторная аутентификация добавляет дополнительный уровень безопасности вашей учетной записи, требуя для входа в систему больше, чем просто пароль
                     </p>
@@ -430,7 +431,7 @@
 
 <div style="display: none;">
     <div class="box-modal form-modal" id="autModal">
-        <div class="form-wrap">
+        <form action="#" class="form-wrap">
             <div class="arcticmodal-close form-wrap-close">
                 <img src="assets/img/close.svg" alt="svg" class="svg">
             </div>
@@ -452,7 +453,7 @@
                 <div class="primary-btn body-14mu arcticmodal-close">Назад</div>
                 <input type="submit" value="подтвердить" class="main-btn body-14mu">
             </div>
-        </div>
+        </form>
         <div class="modal-overlay arcticmodal-close"></div>
     </div>
 </div>

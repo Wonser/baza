@@ -4959,6 +4959,12 @@ input[type=number]::-webkit-outer-spin-button {
       margin-bottom: 24px;
       width: 100%;
       color: var(--text-icon-accent-primary);
+      transition: all .3s ease;
+
+      &.active {
+        background-color: rgba(255, 183, 0, 0.24);
+        color: #FFAE00;
+      }
     }
 
     .aut-btn {

@@ -184,7 +184,7 @@
 
 <div style="display: none;">
     <div class="box-modal form-modal" id="paymentSucModal">
-        <div class="form-wrap">
+        <form action="#" class="form-wrap">
             <div class="arcticmodal-close form-wrap-close">
                 <img src="assets/img/close.svg" alt="svg" class="svg">
             </div>
@@ -193,7 +193,7 @@
             </div>
             <p class="h5" style="margin-bottom: 0;">Баланс пополнен</p>
             <div class="arcticmodal-close main-btn body-14mu">Закрыть</div>
-        </div>
+        </form>
         <div class="modal-overlay arcticmodal-close"></div>
     </div>
 </div>

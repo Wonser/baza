@@ -118,7 +118,7 @@
 
 <div style="display: none;">
     <div class="box-modal form-modal" id="chatModal">
-        <div class="form-wrap">
+        <form action="#" class="form-wrap">
             <div class="arcticmodal-close form-wrap-close">
                 <img src="assets/img/close.svg" alt="svg" class="svg">
             </div>
@@ -160,7 +160,7 @@
                 </div>           
             </label>
             <input type="submit" value="Создать тикет" class="main-btn body-14mu">
-        </div>
+        </form>
         <div class="modal-overlay arcticmodal-close"></div>
     </div>
 </div>

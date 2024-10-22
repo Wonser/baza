@@ -197,7 +197,7 @@
 
 <div style="display: none;">
     <div class="box-modal form-modal" id="createModal">
-        <div class="form-wrap">
+        <form action="#" class="form-wrap">
             <div class="arcticmodal-close form-wrap-close">
                 <img src="assets/img/close.svg" alt="svg" class="svg">
             </div>
@@ -230,14 +230,14 @@
                 </div>
             </label>
             <input type="submit" value="Создать аккаунт" class="main-btn body-14mu">
-        </div>
+        </form>
         <div class="modal-overlay arcticmodal-close"></div>
     </div>
 </div>
 
 <div style="display: none;">
     <div class="box-modal form-modal" id="changeModal">
-        <div class="form-wrap">
+        <form action="#" class="form-wrap">
             <div class="arcticmodal-close form-wrap-close">
                 <img src="assets/img/close.svg" alt="svg" class="svg">
             </div>
@@ -265,14 +265,14 @@
                 </div>
             </label>
             <input type="submit" value="подтвердить" class="main-btn body-14mu">
-        </div>
+        </form>
         <div class="modal-overlay arcticmodal-close"></div>
     </div>
 </div>
 
 <div style="display: none;">
     <div class="box-modal form-modal" id="payModal">
-        <div class="form-wrap">
+        <form action="#" class="form-wrap">
             <div class="arcticmodal-close form-wrap-close">
                 <img src="assets/img/close.svg" alt="svg" class="svg">
             </div>
@@ -296,14 +296,14 @@
                 </div>
             </label>
             <input type="submit" value="подтвердить" class="main-btn body-14mu">
-        </div>
+        </form>
         <div class="modal-overlay arcticmodal-close"></div>
     </div>
 </div>
 
 <div style="display: none;">
     <div class="box-modal form-modal" id="promoModal">
-        <div class="form-wrap">
+        <form action="#" class="form-wrap">
             <div class="arcticmodal-close form-wrap-close">
                 <img src="assets/img/close.svg" alt="svg" class="svg">
             </div>
@@ -313,14 +313,14 @@
                 <input type="text" class="form-input" placeholder="">
             </label>
             <input type="submit" value="активировать" class="main-btn body-14mu">
-        </div>
+        </form>
         <div class="modal-overlay arcticmodal-close"></div>
     </div>
 </div>
 
 <div style="display: none;">
     <div class="box-modal form-modal" id="paySucModal">
-        <div class="form-wrap">
+        <form action="#" class="form-wrap">
             <div class="arcticmodal-close form-wrap-close">
                 <img src="assets/img/close.svg" alt="svg" class="svg">
             </div>
@@ -329,14 +329,14 @@
             </div>
             <p class="h5" style="margin-bottom: 0;">Баланс переведен в игру</p>
             <div class="arcticmodal-close main-btn body-14mu">Закрыть</div>
-        </div>
+        </form>
         <div class="modal-overlay arcticmodal-close"></div>
     </div>
 </div>
 
 <div style="display: none;">
     <div class="box-modal form-modal" id="promoSucModal">
-        <div class="form-wrap">
+        <form action="#" class="form-wrap">
             <div class="arcticmodal-close form-wrap-close">
                 <img src="assets/img/close.svg" alt="svg" class="svg">
             </div>
@@ -345,7 +345,7 @@
             </div>
             <p class="h5" style="margin-bottom: 0;">Промокод активирован</p>
             <div class="arcticmodal-close main-btn body-14mu">Закрыть</div>
-        </div>
+        </form>
         <div class="modal-overlay arcticmodal-close"></div>
     </div>
 </div>
