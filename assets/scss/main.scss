@@ -4352,6 +4352,7 @@ input[type=number]::-webkit-outer-spin-button {
           padding: 12px;
           border-radius: 8px;
           margin-bottom: 4px;
+          cursor: pointer;
 
           &::before {
             content: "";
@@ -4367,6 +4368,10 @@ input[type=number]::-webkit-outer-spin-button {
             border-radius: 60px;
             background: var(--bg-primaryInverse);
             color: var(--text-icon-primary-inverse);
+          }
+
+          &:hover {
+            background: var(--bg-secondary, #141414);
           }
         }
       }

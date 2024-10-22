@@ -50,9 +50,9 @@
                     <p class="body-16mp">Пополнить</p>
                     <div class="sum body-12m">0.00</div>
                 </a>
-                <a href="#" class="sub-menu-item">
+                <div class="sub-menu-item pay-btn">
                     <p class="body-16mp">Отправить в игру</p>
-                </a>
+                </div>
             </div>
             <a href="#" class="account-nav-list-item">
                 <img src="assets/img/nav-icon5.svg" class="svg" alt="">
@@ -255,7 +255,6 @@
         <span class="body-16rp">© 2024 BAZA, Powered by L2CMS</span>
     </div>
 </section>
-
 
 <div style="display: none;">
     <div class="box-modal form-modal" id="payModal">

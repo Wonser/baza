@@ -50,9 +50,9 @@
                     <p class="body-16mp">Пополнить</p>
                     <div class="sum body-12m">0.00</div>
                 </a>
-                <a href="#" class="sub-menu-item">
+                <div class="sub-menu-item pay-btn">
                     <p class="body-16mp">Отправить в игру</p>
-                </a>
+                </div>
             </div>
             <a href="#" class="account-nav-list-item active">
                 <img src="assets/img/nav-icon5.svg" class="svg" alt="">
@@ -160,6 +160,37 @@
                 </div>           
             </label>
             <input type="submit" value="Создать тикет" class="main-btn body-14mu">
+        </form>
+        <div class="modal-overlay arcticmodal-close"></div>
+    </div>
+</div>
+
+<div style="display: none;">
+    <div class="box-modal form-modal" id="payModal">
+        <form action="#" class="form-wrap">
+            <div class="arcticmodal-close form-wrap-close">
+                <img src="assets/img/close.svg" alt="svg" class="svg">
+            </div>
+            <p class="h5">Перевести баланс в игру</p>
+            <label>
+                <span class="body-12bu">Персонаж</span>
+                <div class="custom-select">
+                    <select class="form-input">
+                        <option value="" disabled selected>Выберите персонажа</option>
+                        <option value="1">Персонаж 1</option>
+                        <option value="2">Персонаж 2</option>
+                    </select>
+                </div>
+            </label>
+            <label>
+                <span class="body-12bu">Сумма</span>
+                <div class="number-wrap">
+                    <input type="number" class="form-input" min="0" max="100000000" value="0"  placeholder="0">
+                    <div class="plus"></div>
+                    <div class="minus"></div>
+                </div>
+            </label>
+            <input type="submit" value="подтвердить" class="main-btn body-14mu">
         </form>
         <div class="modal-overlay arcticmodal-close"></div>
     </div>
