@@ -29,9 +29,9 @@
         </nav>
         <div class="header-right">
             <div class="lang-menu">
-                <div class="lang-menu-current ghost-btn">
+                <a href="#" class="lang-menu-current ghost-btn">
                     <span class="body-14mu">RU</span>
-                </div>
+                </a>
             </div>
             <a href="#" class="primary-btn body-14mu">Вход</a>
             <a href="#" class="main-btn body-14mu">регистрация</a>
@@ -50,9 +50,9 @@
                     <img src="assets/img/logo.svg" alt="logo">
                 </a>
                 <div class="lang-menu">
-                    <div class="lang-menu-current ghost-btn">
+                    <a href="#" class="lang-menu-current ghost-btn">
                         <span class="body-14mu">RU</span>
-                    </div>
+                    </a>
                 </div>
                 <a href="#" class="primary-btn body-14mu">Вход</a>
                 <a href="#" class="main-btn body-14mu">регистрация</a>
