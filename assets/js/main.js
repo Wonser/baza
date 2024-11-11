@@ -1,6 +1,15 @@
 
 
 jQuery(document).ready(function($) {
+  
+  setTimeout(function() { 
+    localStorage.setItem('preloader', 'false');
+  }, 1801);
+
+  if(localStorage.getItem("preloader") == 'false') {
+    $('.preloader').hide();
+  }
+  
   window.onload = function () {
     window.scrollTo(0, 0);
   };

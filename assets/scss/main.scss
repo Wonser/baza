@@ -1652,13 +1652,17 @@ body {
   }
 
   &-content {
-    margin-bottom: 48px;
     color: var(--text-icon-secondary-inverse);
 
     &-item {
       display: flex;
       flex-direction: column;
       gap: 12px;
+    }
+
+    .main-btn {
+      margin-top: 48px;
+      max-width: 220px;
     }
   }
 
@@ -1729,7 +1733,10 @@ body {
     }
 
     &-content {
-      margin-bottom: 24px;
+
+      .main-btn {
+        margin-top: 24px;
+      }
     }
   }
 }
@@ -4215,6 +4222,10 @@ input[type=number]::-webkit-outer-spin-button {
     border-radius: 8px;
   }
 
+  .input-wrap {
+    position: relative;
+  }
+
   &-nav {
     position: fixed;
     left: 0;
@@ -4376,8 +4387,6 @@ input[type=number]::-webkit-outer-spin-button {
         }
       }
     }
-
-    
 
     @media screen and (min-width: 1400px) {
       &.hide {
