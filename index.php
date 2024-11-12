@@ -85,24 +85,24 @@
                     </div>
                     <div class="swiper stories-swiper">
                         <div class="swiper-wrapper">
-                            <a href="#" class="swiper-slide stories-swiper-slide">
+                            <div class="swiper-slide stories-swiper-slide">
                                 <video preload="none" loop playsinline>
                                     <source src="assets/img/story1-big.mp4" type="video/mp4">
                                 </video>
-                            </a>
-                            <a href="#" class="swiper-slide stories-swiper-slide">
+                            </div>
+                            <div class="swiper-slide stories-swiper-slide">
                                 <img loading="lazy" src="assets/img/story2-big.webp" alt="">
-                                <div class="secondary-btn body-14mu">Подробнее</div>
-                            </a>
-                            <a href="#" class="swiper-slide stories-swiper-slide">
+                                <a href="#" class="secondary-btn body-14mu">Подробнее</a>
+                            </div>
+                            <div class="swiper-slide stories-swiper-slide">
                                 <img loading="lazy" src="assets/img/story3-big.webp" alt="">
-                                <div class="secondary-btn body-14mu">Подробнее</div>
-                            </a>
-                            <a href="#" class="swiper-slide stories-swiper-slide" data-swiper-autoplay="9000">
+                                <a href="#" class="secondary-btn body-14mu">Подробнее</a>
+                            </div>
+                            <div class="swiper-slide stories-swiper-slide" data-swiper-autoplay="9000">
                                 <video preload="none" loop playsinline>
                                     <source src="assets/img/story4-big.mp4" type="video/mp4">
                                 </video>
-                            </a>
+                            </div>
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
