@@ -381,7 +381,7 @@ jQuery(document).ready(function($) {
       el: '.swiper-pagination',
     },
     autoplay: {
-      delay: 12000,
+      delay: 8000,
       disableOnInteraction: false,
     },
     watchSlidesProgress: true,
@@ -741,45 +741,5 @@ if($('.banner').length) {
       passInput.attr('type', 'password');
     }
   });
-
-  function num_word(value, words){  
-    value = Math.abs(value) % 100; 
-    var num = value % 10;
-    if(value > 10 && value < 20) return words[2]; 
-    if(num > 1 && num < 5) return words[1];
-    if(num == 1) return words[0]; 
-    return words[2];
-  }
-
-  var endDate = new Date(2025, 1, 10);
-  setInterval(function() {
-    var currentDate = new Date();
-    var secondsLeft = Math.floor((endDate - currentDate) / 1000);
-    var days = Math.floor(secondsLeft / (24 * 60 * 60));
-    var hours = Math.floor((secondsLeft % (24 * 60 * 60)) / (60 * 60));
-    var minutes = Math.floor((secondsLeft % (60 * 60)) / 60);
-
-    
-    $(".hero-timer .days-text").text(num_word(days, ['день', 'дня', 'дней']));
-    $(".hero-timer .hours-text").text(num_word(hours, ['час', 'часа', 'часов']));
-    $(".hero-timer .minutes-text").text(num_word(minutes, ['минута', 'минуты', 'минут']));
-
-    if(days < 10) {
-      days = "0" + days;
-    }
-
-    if(hours < 10) {
-      hours = "0" + hours;
-    }
-
-    if(minutes < 10) {
-      minutes = "0" + minutes;
-    }
-
-    $(".hero-timer .days").text(days);
-    $(".hero-timer .hours").text(hours);
-    $(".hero-timer .minutes").text(minutes);
-
-  }, 1000);
 
 });
