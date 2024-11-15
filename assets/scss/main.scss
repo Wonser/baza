@@ -6117,11 +6117,7 @@ input[type=number]::-webkit-outer-spin-button {
 
       &-active {
         opacity: 1;
-        animation: slide-progress 12s linear forwards;
-
-        &:last-child {
-          animation: slide-progress 9s linear forwards;
-        }
+        animation: slide-progress 8s linear forwards;
       }
     }
   }

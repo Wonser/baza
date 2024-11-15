@@ -237,13 +237,26 @@ jQuery(document).ready(function($) {
   });
 
   $('.news-tab-item').not('.active').hide();
-  $(document).on("click", ".news-nav-item:not(.active)", function () {
+  $(document).on("click", ".news .news-nav-item:not(.active)", function () {
     $(this)
         .addClass("active")
         .siblings()
         .removeClass("active")
         .closest(".news")
         .find(".news-tab-item")
+        .hide()
+        .eq($(this).index())
+        .fadeIn();
+  });
+
+  $('.posts-tab-item').not('.active').hide();
+  $(document).on("click", ".posts .news-nav-item:not(.active)", function () {
+    $(this)
+        .addClass("active")
+        .siblings()
+        .removeClass("active")
+        .closest(".posts")
+        .find(".posts-tab-item")
         .hide()
         .eq($(this).index())
         .fadeIn();

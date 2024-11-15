@@ -43,16 +43,16 @@
                     <p class="body-12mu">20:00 GMT +3</p>
                     <div class="hero-timer-wrap">
                         <div class="hero-timer-wrap-item">
-                            <p class="days h4">23</p>
-                            <p class="days-text body-12mu">дней</p>
+                            <p class="days h4"></p>
+                            <p class="days-text body-12mu"></p>
                         </div>
                         <div class="hero-timer-wrap-item">
-                            <p class="hours h4">06</p>
-                            <p class="hours-text body-12mu">часов</p>
+                            <p class="hours h4"></p>
+                            <p class="hours-text body-12mu"></p>
                         </div>
                         <div class="hero-timer-wrap-item">
-                            <p class="minutes h4">55</p>
-                            <p class="minutes-text body-12mu">минут</p>
+                            <p class="minutes h4"></p>
+                            <p class="minutes-text body-12mu"></p>
                         </div>
                     </div>
                 </div>
