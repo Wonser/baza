@@ -345,6 +345,8 @@ jQuery(document).ready(function($) {
   });
 
   $(".item-btn").on('click', function () {
+    let item = $(this).data('item');
+    $('input[name=itemName]').val(item);
     $('#sendModal').arcticmodal();
   });
   

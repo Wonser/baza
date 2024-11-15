@@ -141,7 +141,7 @@
                         <p class="body-16rp">1</p>
                     </div>
                     <div class="account-table-item-inner">
-                        <div class="primary-btn body-14mu item-btn">отправить</div>
+                        <div class="primary-btn body-14mu item-btn" data-item="Название предмета">отправить</div>
                     </div>
                 </div>
                 <div class="account-table-item">
@@ -152,7 +152,7 @@
                         <p class="body-16rp">1</p>
                     </div>
                     <div class="account-table-item-inner">
-                        <div class="primary-btn body-14mu item-btn">отправить</div>
+                        <div class="primary-btn body-14mu item-btn" data-item="Название предмета">отправить</div>
                     </div>
                 </div>
                 <div class="account-table-item">
@@ -163,7 +163,7 @@
                         <p class="body-16rp">1</p>
                     </div>
                     <div class="account-table-item-inner">
-                        <div class="primary-btn body-14mu item-btn">отправить</div>
+                        <div class="primary-btn body-14mu item-btn" data-item="Название предмета">отправить</div>
                     </div>
                 </div>
                 <div class="account-table-item">
@@ -174,7 +174,7 @@
                         <p class="body-16rp">1</p>
                     </div>
                     <div class="account-table-item-inner">
-                        <div class="primary-btn body-14mu item-btn">отправить</div>
+                        <div class="primary-btn body-14mu item-btn" data-item="Название предмета">отправить</div>
                     </div>
                 </div>
             </div>
@@ -270,6 +270,7 @@
             <div class="arcticmodal-close form-wrap-close">
                 <img src="assets/img/close.svg" alt="svg" class="svg">
             </div>
+            <input type="hidden" name="itemName" value="">
             <p class="h5">Отправить предмет<br> в игру</p>
             <p class="body-18rp grey">Агатион Прочелла</p>
             <label>
