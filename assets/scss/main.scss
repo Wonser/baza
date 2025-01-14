@@ -567,6 +567,25 @@ body {
     display: flex;
   }
 
+  .online {
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+
+    &::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background-color: #4DB45E;
+      margin: 4px 5px 5px;
+    }
+
+    p {
+      margin-left: 4px;
+    }
+  }
+
   &-nav {
     width: auto;
     white-space: nowrap;
@@ -649,20 +668,29 @@ body {
       height: 42px;
     }
 
+    .online {
+      margin-left: 12px;
+
+      &::before {
+        margin: 3 5px 5px;
+      }
+    }
+
     &-right {
       display: none;
     }
 
     &-left {
       width: 100%;
-      flex-direction: row-reverse;
-      justify-content: space-between;
     }
+
 
     .menu-btn {
       margin-right: 0;
       width: 42px;
       height: 42px;
+      margin-left: auto;
+      order: 2;
     }
   }
 }
@@ -738,6 +766,12 @@ body {
           }
         }
       }
+    }
+
+    .primary-btn {
+      width: 100%;
+      max-width: 220px;
+      margin-top: 12px;
     }
   }
 

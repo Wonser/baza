@@ -17,6 +17,9 @@
             <a href="#" class="logo">
                 <img src="assets/img/logo.svg" alt="logo">
             </a>
+            <div class="online">
+              <p class="body-14mu">online</p>
+            </div>
         </div>
         <nav class="header-nav">
             <ul class="header-menu">
