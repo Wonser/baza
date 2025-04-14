@@ -28,7 +28,389 @@
                 <img src="assets/img/posts.png" alt="baza">
             </picture>
             <div class="posts-tab">
-              <div class="posts-tab-item active">
+              <div class="posts-tab-item active" id="swiper1">
+                <div class="posts-swiper swiper">
+                    <div class="swiper-wrapper">
+                        <div class="posts-swiper-item swiper-slide">
+                            <a href="#" class="posts-swiper-item-content">
+                                <span class="body-14r">09/07/24</span>
+                                <p class="h4">магазин древней адены</p>
+                                <div class="primary-btn body-14mu">подробнее</div>
+                            </a>
+                            <a href="#" class="posts-swiper-item-link">
+                                <picture class="posts-bg">
+                                    <source srcset="assets/img/news3.webp">
+                                    <img src="assets/img/news3.png" alt="baza">
+                                </picture>
+                                <div class="tag body-12mu">события</div>
+                            </a>
+                        </div>
+                        <div class="posts-swiper-item swiper-slide">
+                            <a href="#" class="posts-swiper-item-content">
+                                <span class="body-14r">09/07/24</span>
+                                <p class="h4">в погоне за розовым кроликом</p>
+                                <div class="primary-btn body-14mu">подробнее</div>
+                            </a>
+                            <a href="#" class="posts-swiper-item-link">
+                                <picture class="posts-bg">
+                                    <source srcset="assets/img/news2.webp">
+                                    <img src="assets/img/news2.png" alt="baza">
+                                </picture>
+                                <div class="tag body-12mu">Акции</div>
+                            </a>
+                        </div>
+                        <div class="posts-swiper-item swiper-slide">
+                            <a href="#" class="posts-swiper-item-content">
+                                <span class="body-14r">09/07/24</span>
+                                <p class="h4">обновление игрового контента</p>
+                                <div class="primary-btn body-14mu">подробнее</div>
+                            </a>
+                            <a href="#" class="posts-swiper-item-link">
+                                <picture class="posts-bg">
+                                    <source srcset="assets/img/news1.webp">
+                                    <img src="assets/img/news1.png" alt="baza">
+                                </picture>
+                                <div class="tag body-12mu">обновления</div>
+                            </a>
+                        </div>
+                        <div class="posts-swiper-item swiper-slide">
+                            <a href="#" class="posts-swiper-item-content">
+                                <span class="body-14r">09/07/24</span>
+                                <p class="h4">конкурс мемов</p>
+                                <div class="primary-btn body-14mu">подробнее</div>
+                            </a>
+                            <a href="#" class="posts-swiper-item-link">
+                                <picture class="posts-bg">
+                                    <source srcset="assets/img/news3.webp">
+                                    <img src="assets/img/news3.png" alt="baza">
+                                </picture>
+                                <div class="tag body-12mu">события</div>
+                            </a>
+                        </div>
+                        <div class="posts-swiper-item swiper-slide">
+                            <a href="#" class="posts-swiper-item-content">
+                                <span class="body-14r">09/07/24</span>
+                                <p class="h4">магазин древней адены</p>
+                                <div class="primary-btn body-14mu">подробнее</div>
+                            </a>
+                            <a href="#" class="posts-swiper-item-link">
+                                <picture class="posts-bg">
+                                    <source srcset="assets/img/news1.webp">
+                                    <img src="assets/img/news1.png" alt="baza">
+                                </picture>
+                                <div class="tag body-12mu">обновления</div>
+                            </a>
+                        </div>
+                        <div class="posts-swiper-item swiper-slide">
+                            <a href="#" class="posts-swiper-item-content">
+                                <span class="body-14r">09/07/24</span>
+                                <p class="h4">магазин древней адены</p>
+                                <div class="primary-btn body-14mu">подробнее</div>
+                            </a>
+                            <a href="#" class="posts-swiper-item-link">
+                                <picture class="posts-bg">
+                                    <source srcset="assets/img/news1.webp">
+                                    <img src="assets/img/news1.png" alt="baza">
+                                </picture>
+                                <div class="tag body-12mu">обновления</div>
+                            </a>
+                        </div>
+                        <div class="posts-swiper-item swiper-slide">
+                            <a href="#" class="posts-swiper-item-content">
+                                <span class="body-14r">09/07/24</span>
+                                <p class="h4">магазин древней адены</p>
+                                <div class="primary-btn body-14mu">подробнее</div>
+                            </a>
+                            <a href="#" class="posts-swiper-item-link">
+                                <picture class="posts-bg">
+                                    <source srcset="assets/img/news1.webp">
+                                    <img src="assets/img/news1.png" alt="baza">
+                                </picture>
+                                <div class="tag body-12mu">обновления</div>
+                            </a>
+                        </div>
+                        <div class="posts-swiper-item swiper-slide">
+                            <a href="#" class="posts-swiper-item-content">
+                                <span class="body-14r">09/07/24</span>
+                                <p class="h4">магазин древней адены</p>
+                                <div class="primary-btn body-14mu">подробнее</div>
+                            </a>
+                            <a href="#" class="posts-swiper-item-link">
+                                <picture class="posts-bg">
+                                    <source srcset="assets/img/news1.webp">
+                                    <img src="assets/img/news1.png" alt="baza">
+                                </picture>
+                                <div class="tag body-12mu">обновления</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="posts-mobile">
+                    <div class="posts-swiper-item">
+                        <a href="#" class="posts-swiper-item-content">
+                            <span class="body-14r">09/07/24</span>
+                            <p class="h4">магазин древней адены</p>
+                            <div class="primary-btn body-14mu">подробнее</div>
+                        </a>
+                        <a href="#" class="posts-swiper-item-link">
+                            <picture class="posts-bg">
+                                <source srcset="assets/img/news3.webp">
+                                <img src="assets/img/news3.png" alt="baza">
+                            </picture>
+                            <div class="tag body-12mu">события</div>
+                        </a>
+                    </div>
+                    <div class="posts-swiper-item">
+                        <a href="#" class="posts-swiper-item-content">
+                            <span class="body-14r">09/07/24</span>
+                            <p class="h4">в погоне за розовым кроликом</p>
+                            <div class="primary-btn body-14mu">подробнее</div>
+                        </a>
+                        <a href="#" class="posts-swiper-item-link">
+                            <picture class="posts-bg">
+                                <source srcset="assets/img/news2.webp">
+                                <img src="assets/img/news2.png" alt="baza">
+                            </picture>
+                            <div class="tag body-12mu">Акции</div>
+                        </a>
+                    </div>
+                    <div class="posts-swiper-item">
+                        <a href="#" class="posts-swiper-item-content">
+                            <span class="body-14r">09/07/24</span>
+                            <p class="h4">обновление игрового контента</p>
+                            <div class="primary-btn body-14mu">подробнее</div>
+                        </a>
+                        <a href="#" class="posts-swiper-item-link">
+                            <picture class="posts-bg">
+                                <source srcset="assets/img/news1.webp">
+                                <img src="assets/img/news1.png" alt="baza">
+                            </picture>
+                            <div class="tag body-12mu">обновления</div>
+                        </a>
+                    </div>
+                    <div class="posts-swiper-item">
+                        <a href="#" class="posts-swiper-item-content">
+                            <span class="body-14r">09/07/24</span>
+                            <p class="h4">конкурс мемов</p>
+                            <div class="primary-btn body-14mu">подробнее</div>
+                        </a>
+                        <a href="#" class="posts-swiper-item-link">
+                            <picture class="posts-bg">
+                                <source srcset="assets/img/news3.webp">
+                                <img src="assets/img/news3.png" alt="baza">
+                            </picture>
+                            <div class="tag body-12mu">события</div>
+                        </a>
+                    </div>
+                    <div class="posts-swiper-item">
+                        <a href="#" class="posts-swiper-item-content">
+                            <span class="body-14r">09/07/24</span>
+                            <p class="h4">магазин древней адены</p>
+                            <div class="primary-btn body-14mu">подробнее</div>
+                        </a>
+                        <a href="#" class="posts-swiper-item-link">
+                            <picture class="posts-bg">
+                                <source srcset="assets/img/news1.webp">
+                                <img src="assets/img/news1.png" alt="baza">
+                            </picture>
+                            <div class="tag body-12mu">обновления</div>
+                        </a>
+                    </div>
+                </div>
+              </div>
+              <div class="posts-tab-item" id="swiper2">
+                <div class="posts-swiper swiper" >
+                    <div class="swiper-wrapper">         
+                        <div class="posts-swiper-item swiper-slide">
+                            <a href="#" class="posts-swiper-item-content">
+                                <span class="body-14r">09/07/24</span>
+                                <p class="h4">обновление игрового контента</p>
+                                <div class="primary-btn body-14mu">подробнее</div>
+                            </a>
+                            <a href="#" class="posts-swiper-item-link">
+                                <picture class="posts-bg">
+                                    <source srcset="assets/img/news1.webp">
+                                    <img src="assets/img/news1.png" alt="baza">
+                                </picture>
+                                <div class="tag body-12mu">обновления</div>
+                            </a>
+                        </div>
+                        <div class="posts-swiper-item swiper-slide">
+                            <a href="#" class="posts-swiper-item-content">
+                                <span class="body-14r">09/07/24</span>
+                                <p class="h4">конкурс мемов</p>
+                                <div class="primary-btn body-14mu">подробнее</div>
+                            </a>
+                            <a href="#" class="posts-swiper-item-link">
+                                <picture class="posts-bg">
+                                    <source srcset="assets/img/news3.webp">
+                                    <img src="assets/img/news3.png" alt="baza">
+                                </picture>
+                                <div class="tag body-12mu">события</div>
+                            </a>
+                        </div>
+                        <div class="posts-swiper-item swiper-slide">
+                            <a href="#" class="posts-swiper-item-content">
+                                <span class="body-14r">09/07/24</span>
+                                <p class="h4">магазин древней адены</p>
+                                <div class="primary-btn body-14mu">подробнее</div>
+                            </a>
+                            <a href="#" class="posts-swiper-item-link">
+                                <picture class="posts-bg">
+                                    <source srcset="assets/img/news1.webp">
+                                    <img src="assets/img/news1.png" alt="baza">
+                                </picture>
+                                <div class="tag body-12mu">обновления</div>
+                            </a>
+                        </div>
+                        <div class="posts-swiper-item swiper-slide">
+                            <a href="#" class="posts-swiper-item-content">
+                                <span class="body-14r">09/07/24</span>
+                                <p class="h4">магазин древней адены</p>
+                                <div class="primary-btn body-14mu">подробнее</div>
+                            </a>
+                            <a href="#" class="posts-swiper-item-link">
+                                <picture class="posts-bg">
+                                    <source srcset="assets/img/news3.webp">
+                                    <img src="assets/img/news3.png" alt="baza">
+                                </picture>
+                                <div class="tag body-12mu">события</div>
+                            </a>
+                        </div>
+                        <div class="posts-swiper-item swiper-slide">
+                            <a href="#" class="posts-swiper-item-content">
+                                <span class="body-14r">09/07/24</span>
+                                <p class="h4">обновление игрового контента</p>
+                                <div class="primary-btn body-14mu">подробнее</div>
+                            </a>
+                            <a href="#" class="posts-swiper-item-link">
+                                <picture class="posts-bg">
+                                    <source srcset="assets/img/news1.webp">
+                                    <img src="assets/img/news1.png" alt="baza">
+                                </picture>
+                                <div class="tag body-12mu">обновления</div>
+                            </a>
+                        </div>
+                        <div class="posts-swiper-item swiper-slide">
+                            <a href="#" class="posts-swiper-item-content">
+                                <span class="body-14r">09/07/24</span>
+                                <p class="h4">конкурс мемов</p>
+                                <div class="primary-btn body-14mu">подробнее</div>
+                            </a>
+                            <a href="#" class="posts-swiper-item-link">
+                                <picture class="posts-bg">
+                                    <source srcset="assets/img/news3.webp">
+                                    <img src="assets/img/news3.png" alt="baza">
+                                </picture>
+                                <div class="tag body-12mu">события</div>
+                            </a>
+                        </div>
+                        <div class="posts-swiper-item swiper-slide">
+                            <a href="#" class="posts-swiper-item-content">
+                                <span class="body-14r">09/07/24</span>
+                                <p class="h4">магазин древней адены</p>
+                                <div class="primary-btn body-14mu">подробнее</div>
+                            </a>
+                            <a href="#" class="posts-swiper-item-link">
+                                <picture class="posts-bg">
+                                    <source srcset="assets/img/news1.webp">
+                                    <img src="assets/img/news1.png" alt="baza">
+                                </picture>
+                                <div class="tag body-12mu">обновления</div>
+                            </a>
+                        </div>
+                        <div class="posts-swiper-item swiper-slide">
+                            <a href="#" class="posts-swiper-item-content">
+                                <span class="body-14r">09/07/24</span>
+                                <p class="h4">магазин древней адены</p>
+                                <div class="primary-btn body-14mu">подробнее</div>
+                            </a>
+                            <a href="#" class="posts-swiper-item-link">
+                                <picture class="posts-bg">
+                                    <source srcset="assets/img/news3.webp">
+                                    <img src="assets/img/news3.png" alt="baza">
+                                </picture>
+                                <div class="tag body-12mu">события</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="posts-mobile">
+                    <div class="posts-swiper-item">
+                        <a href="#" class="posts-swiper-item-content">
+                            <span class="body-14r">09/07/24</span>
+                            <p class="h4">магазин древней адены</p>
+                            <div class="primary-btn body-14mu">подробнее</div>
+                        </a>
+                        <a href="#" class="posts-swiper-item-link">
+                            <picture class="posts-bg">
+                                <source srcset="assets/img/news3.webp">
+                                <img src="assets/img/news3.png" alt="baza">
+                            </picture>
+                            <div class="tag body-12mu">события</div>
+                        </a>
+                    </div>
+                    <div class="posts-swiper-item">
+                        <a href="#" class="posts-swiper-item-content">
+                            <span class="body-14r">09/07/24</span>
+                            <p class="h4">в погоне за розовым кроликом</p>
+                            <div class="primary-btn body-14mu">подробнее</div>
+                        </a>
+                        <a href="#" class="posts-swiper-item-link">
+                            <picture class="posts-bg">
+                                <source srcset="assets/img/news2.webp">
+                                <img src="assets/img/news2.png" alt="baza">
+                            </picture>
+                            <div class="tag body-12mu">Акции</div>
+                        </a>
+                    </div>
+                    <div class="posts-swiper-item">
+                        <a href="#" class="posts-swiper-item-content">
+                            <span class="body-14r">09/07/24</span>
+                            <p class="h4">обновление игрового контента</p>
+                            <div class="primary-btn body-14mu">подробнее</div>
+                        </a>
+                        <a href="#" class="posts-swiper-item-link">
+                            <picture class="posts-bg">
+                                <source srcset="assets/img/news1.webp">
+                                <img src="assets/img/news1.png" alt="baza">
+                            </picture>
+                            <div class="tag body-12mu">обновления</div>
+                        </a>
+                    </div>
+                    <div class="posts-swiper-item">
+                        <a href="#" class="posts-swiper-item-content">
+                            <span class="body-14r">09/07/24</span>
+                            <p class="h4">конкурс мемов</p>
+                            <div class="primary-btn body-14mu">подробнее</div>
+                        </a>
+                        <a href="#" class="posts-swiper-item-link">
+                            <picture class="posts-bg">
+                                <source srcset="assets/img/news3.webp">
+                                <img src="assets/img/news3.png" alt="baza">
+                            </picture>
+                            <div class="tag body-12mu">события</div>
+                        </a>
+                    </div>
+                    <div class="posts-swiper-item">
+                        <a href="#" class="posts-swiper-item-content">
+                            <span class="body-14r">09/07/24</span>
+                            <p class="h4">магазин древней адены</p>
+                            <div class="primary-btn body-14mu">подробнее</div>
+                        </a>
+                        <a href="#" class="posts-swiper-item-link">
+                            <picture class="posts-bg">
+                                <source srcset="assets/img/news1.webp">
+                                <img src="assets/img/news1.png" alt="baza">
+                            </picture>
+                            <div class="tag body-12mu">обновления</div>
+                        </a>
+                    </div>
+                </div>
+              </div>
+              <div class="posts-tab-item" id="swiper3">
                 <div class="posts-swiper swiper">
                     <div class="swiper-wrapper">
                         <div class="posts-swiper-item swiper-slide">
@@ -177,7 +559,7 @@
                     </div>
                 </div>
               </div>
-              <div class="posts-tab-item">
+              <div class="posts-tab-item" id="swiper4">
                 <div class="posts-swiper swiper">
                     <div class="swiper-wrapper">
                         <div class="posts-swiper-item swiper-slide">
@@ -326,305 +708,7 @@
                     </div>
                 </div>
               </div>
-              <div class="posts-tab-item">
-                <div class="posts-swiper swiper">
-                    <div class="swiper-wrapper">
-                        <div class="posts-swiper-item swiper-slide">
-                            <a href="#" class="posts-swiper-item-content">
-                                <span class="body-14r">09/07/24</span>
-                                <p class="h4">магазин древней адены</p>
-                                <div class="primary-btn body-14mu">подробнее</div>
-                            </a>
-                            <a href="#" class="posts-swiper-item-link">
-                                <picture class="posts-bg">
-                                    <source srcset="assets/img/news3.webp">
-                                    <img src="assets/img/news3.png" alt="baza">
-                                </picture>
-                                <div class="tag body-12mu">события</div>
-                            </a>
-                        </div>
-                        <div class="posts-swiper-item swiper-slide">
-                            <a href="#" class="posts-swiper-item-content">
-                                <span class="body-14r">09/07/24</span>
-                                <p class="h4">в погоне за розовым кроликом</p>
-                                <div class="primary-btn body-14mu">подробнее</div>
-                            </a>
-                            <a href="#" class="posts-swiper-item-link">
-                                <picture class="posts-bg">
-                                    <source srcset="assets/img/news2.webp">
-                                    <img src="assets/img/news2.png" alt="baza">
-                                </picture>
-                                <div class="tag body-12mu">Акции</div>
-                            </a>
-                        </div>
-                        <div class="posts-swiper-item swiper-slide">
-                            <a href="#" class="posts-swiper-item-content">
-                                <span class="body-14r">09/07/24</span>
-                                <p class="h4">обновление игрового контента</p>
-                                <div class="primary-btn body-14mu">подробнее</div>
-                            </a>
-                            <a href="#" class="posts-swiper-item-link">
-                                <picture class="posts-bg">
-                                    <source srcset="assets/img/news1.webp">
-                                    <img src="assets/img/news1.png" alt="baza">
-                                </picture>
-                                <div class="tag body-12mu">обновления</div>
-                            </a>
-                        </div>
-                        <div class="posts-swiper-item swiper-slide">
-                            <a href="#" class="posts-swiper-item-content">
-                                <span class="body-14r">09/07/24</span>
-                                <p class="h4">конкурс мемов</p>
-                                <div class="primary-btn body-14mu">подробнее</div>
-                            </a>
-                            <a href="#" class="posts-swiper-item-link">
-                                <picture class="posts-bg">
-                                    <source srcset="assets/img/news3.webp">
-                                    <img src="assets/img/news3.png" alt="baza">
-                                </picture>
-                                <div class="tag body-12mu">события</div>
-                            </a>
-                        </div>
-                        <div class="posts-swiper-item swiper-slide">
-                            <a href="#" class="posts-swiper-item-content">
-                                <span class="body-14r">09/07/24</span>
-                                <p class="h4">магазин древней адены</p>
-                                <div class="primary-btn body-14mu">подробнее</div>
-                            </a>
-                            <a href="#" class="posts-swiper-item-link">
-                                <picture class="posts-bg">
-                                    <source srcset="assets/img/news1.webp">
-                                    <img src="assets/img/news1.png" alt="baza">
-                                </picture>
-                                <div class="tag body-12mu">обновления</div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                </div>
-                <div class="posts-mobile">
-                    <div class="posts-swiper-item">
-                        <a href="#" class="posts-swiper-item-content">
-                            <span class="body-14r">09/07/24</span>
-                            <p class="h4">магазин древней адены</p>
-                            <div class="primary-btn body-14mu">подробнее</div>
-                        </a>
-                        <a href="#" class="posts-swiper-item-link">
-                            <picture class="posts-bg">
-                                <source srcset="assets/img/news3.webp">
-                                <img src="assets/img/news3.png" alt="baza">
-                            </picture>
-                            <div class="tag body-12mu">события</div>
-                        </a>
-                    </div>
-                    <div class="posts-swiper-item">
-                        <a href="#" class="posts-swiper-item-content">
-                            <span class="body-14r">09/07/24</span>
-                            <p class="h4">в погоне за розовым кроликом</p>
-                            <div class="primary-btn body-14mu">подробнее</div>
-                        </a>
-                        <a href="#" class="posts-swiper-item-link">
-                            <picture class="posts-bg">
-                                <source srcset="assets/img/news2.webp">
-                                <img src="assets/img/news2.png" alt="baza">
-                            </picture>
-                            <div class="tag body-12mu">Акции</div>
-                        </a>
-                    </div>
-                    <div class="posts-swiper-item">
-                        <a href="#" class="posts-swiper-item-content">
-                            <span class="body-14r">09/07/24</span>
-                            <p class="h4">обновление игрового контента</p>
-                            <div class="primary-btn body-14mu">подробнее</div>
-                        </a>
-                        <a href="#" class="posts-swiper-item-link">
-                            <picture class="posts-bg">
-                                <source srcset="assets/img/news1.webp">
-                                <img src="assets/img/news1.png" alt="baza">
-                            </picture>
-                            <div class="tag body-12mu">обновления</div>
-                        </a>
-                    </div>
-                    <div class="posts-swiper-item">
-                        <a href="#" class="posts-swiper-item-content">
-                            <span class="body-14r">09/07/24</span>
-                            <p class="h4">конкурс мемов</p>
-                            <div class="primary-btn body-14mu">подробнее</div>
-                        </a>
-                        <a href="#" class="posts-swiper-item-link">
-                            <picture class="posts-bg">
-                                <source srcset="assets/img/news3.webp">
-                                <img src="assets/img/news3.png" alt="baza">
-                            </picture>
-                            <div class="tag body-12mu">события</div>
-                        </a>
-                    </div>
-                    <div class="posts-swiper-item">
-                        <a href="#" class="posts-swiper-item-content">
-                            <span class="body-14r">09/07/24</span>
-                            <p class="h4">магазин древней адены</p>
-                            <div class="primary-btn body-14mu">подробнее</div>
-                        </a>
-                        <a href="#" class="posts-swiper-item-link">
-                            <picture class="posts-bg">
-                                <source srcset="assets/img/news1.webp">
-                                <img src="assets/img/news1.png" alt="baza">
-                            </picture>
-                            <div class="tag body-12mu">обновления</div>
-                        </a>
-                    </div>
-                </div>
-              </div>
-              <div class="posts-tab-item">
-                <div class="posts-swiper swiper">
-                    <div class="swiper-wrapper">
-                        <div class="posts-swiper-item swiper-slide">
-                            <a href="#" class="posts-swiper-item-content">
-                                <span class="body-14r">09/07/24</span>
-                                <p class="h4">магазин древней адены</p>
-                                <div class="primary-btn body-14mu">подробнее</div>
-                            </a>
-                            <a href="#" class="posts-swiper-item-link">
-                                <picture class="posts-bg">
-                                    <source srcset="assets/img/news3.webp">
-                                    <img src="assets/img/news3.png" alt="baza">
-                                </picture>
-                                <div class="tag body-12mu">события</div>
-                            </a>
-                        </div>
-                        <div class="posts-swiper-item swiper-slide">
-                            <a href="#" class="posts-swiper-item-content">
-                                <span class="body-14r">09/07/24</span>
-                                <p class="h4">в погоне за розовым кроликом</p>
-                                <div class="primary-btn body-14mu">подробнее</div>
-                            </a>
-                            <a href="#" class="posts-swiper-item-link">
-                                <picture class="posts-bg">
-                                    <source srcset="assets/img/news2.webp">
-                                    <img src="assets/img/news2.png" alt="baza">
-                                </picture>
-                                <div class="tag body-12mu">Акции</div>
-                            </a>
-                        </div>
-                        <div class="posts-swiper-item swiper-slide">
-                            <a href="#" class="posts-swiper-item-content">
-                                <span class="body-14r">09/07/24</span>
-                                <p class="h4">обновление игрового контента</p>
-                                <div class="primary-btn body-14mu">подробнее</div>
-                            </a>
-                            <a href="#" class="posts-swiper-item-link">
-                                <picture class="posts-bg">
-                                    <source srcset="assets/img/news1.webp">
-                                    <img src="assets/img/news1.png" alt="baza">
-                                </picture>
-                                <div class="tag body-12mu">обновления</div>
-                            </a>
-                        </div>
-                        <div class="posts-swiper-item swiper-slide">
-                            <a href="#" class="posts-swiper-item-content">
-                                <span class="body-14r">09/07/24</span>
-                                <p class="h4">конкурс мемов</p>
-                                <div class="primary-btn body-14mu">подробнее</div>
-                            </a>
-                            <a href="#" class="posts-swiper-item-link">
-                                <picture class="posts-bg">
-                                    <source srcset="assets/img/news3.webp">
-                                    <img src="assets/img/news3.png" alt="baza">
-                                </picture>
-                                <div class="tag body-12mu">события</div>
-                            </a>
-                        </div>
-                        <div class="posts-swiper-item swiper-slide">
-                            <a href="#" class="posts-swiper-item-content">
-                                <span class="body-14r">09/07/24</span>
-                                <p class="h4">магазин древней адены</p>
-                                <div class="primary-btn body-14mu">подробнее</div>
-                            </a>
-                            <a href="#" class="posts-swiper-item-link">
-                                <picture class="posts-bg">
-                                    <source srcset="assets/img/news1.webp">
-                                    <img src="assets/img/news1.png" alt="baza">
-                                </picture>
-                                <div class="tag body-12mu">обновления</div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                </div>
-                <div class="posts-mobile">
-                    <div class="posts-swiper-item">
-                        <a href="#" class="posts-swiper-item-content">
-                            <span class="body-14r">09/07/24</span>
-                            <p class="h4">магазин древней адены</p>
-                            <div class="primary-btn body-14mu">подробнее</div>
-                        </a>
-                        <a href="#" class="posts-swiper-item-link">
-                            <picture class="posts-bg">
-                                <source srcset="assets/img/news3.webp">
-                                <img src="assets/img/news3.png" alt="baza">
-                            </picture>
-                            <div class="tag body-12mu">события</div>
-                        </a>
-                    </div>
-                    <div class="posts-swiper-item">
-                        <a href="#" class="posts-swiper-item-content">
-                            <span class="body-14r">09/07/24</span>
-                            <p class="h4">в погоне за розовым кроликом</p>
-                            <div class="primary-btn body-14mu">подробнее</div>
-                        </a>
-                        <a href="#" class="posts-swiper-item-link">
-                            <picture class="posts-bg">
-                                <source srcset="assets/img/news2.webp">
-                                <img src="assets/img/news2.png" alt="baza">
-                            </picture>
-                            <div class="tag body-12mu">Акции</div>
-                        </a>
-                    </div>
-                    <div class="posts-swiper-item">
-                        <a href="#" class="posts-swiper-item-content">
-                            <span class="body-14r">09/07/24</span>
-                            <p class="h4">обновление игрового контента</p>
-                            <div class="primary-btn body-14mu">подробнее</div>
-                        </a>
-                        <a href="#" class="posts-swiper-item-link">
-                            <picture class="posts-bg">
-                                <source srcset="assets/img/news1.webp">
-                                <img src="assets/img/news1.png" alt="baza">
-                            </picture>
-                            <div class="tag body-12mu">обновления</div>
-                        </a>
-                    </div>
-                    <div class="posts-swiper-item">
-                        <a href="#" class="posts-swiper-item-content">
-                            <span class="body-14r">09/07/24</span>
-                            <p class="h4">конкурс мемов</p>
-                            <div class="primary-btn body-14mu">подробнее</div>
-                        </a>
-                        <a href="#" class="posts-swiper-item-link">
-                            <picture class="posts-bg">
-                                <source srcset="assets/img/news3.webp">
-                                <img src="assets/img/news3.png" alt="baza">
-                            </picture>
-                            <div class="tag body-12mu">события</div>
-                        </a>
-                    </div>
-                    <div class="posts-swiper-item">
-                        <a href="#" class="posts-swiper-item-content">
-                            <span class="body-14r">09/07/24</span>
-                            <p class="h4">магазин древней адены</p>
-                            <div class="primary-btn body-14mu">подробнее</div>
-                        </a>
-                        <a href="#" class="posts-swiper-item-link">
-                            <picture class="posts-bg">
-                                <source srcset="assets/img/news1.webp">
-                                <img src="assets/img/news1.png" alt="baza">
-                            </picture>
-                            <div class="tag body-12mu">обновления</div>
-                        </a>
-                    </div>
-                </div>
-              </div>
-              <div class="posts-tab-item">
+              <div class="posts-tab-item" id="swiper5">
                 <div class="posts-swiper swiper">
                     <div class="swiper-wrapper">
                         <div class="posts-swiper-item swiper-slide">
