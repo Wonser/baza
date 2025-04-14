@@ -22,49 +22,49 @@
 
     <main>
       <script>
-          // jQuery(document).ready(function($) {
-          //   function num_word(value, words){  
-          //     value = Math.abs(value) % 100; 
-          //     var num = value % 10;
-          //     if(value > 10 && value < 20) return words[2]; 
-          //     if(num > 1 && num < 5) return words[1];
-          //     if(num == 1) return words[0]; 
-          //     return words[2];
-          //   }
+          jQuery(document).ready(function($) {
+            function num_word(value, words){  
+              value = Math.abs(value) % 100; 
+              var num = value % 10;
+              if(value > 10 && value < 20) return words[2]; 
+              if(num > 1 && num < 5) return words[1];
+              if(num == 1) return words[0]; 
+              return words[2];
+            }
 
-          //   function timer() {
-          //     var currentDate = new Date();
-          //     var secondsLeft = Math.floor((endDate - currentDate) / 1000);
-          //     var days = Math.floor(secondsLeft / (24 * 60 * 60));
-          //     var hours = Math.floor((secondsLeft % (24 * 60 * 60)) / (60 * 60));
-          //     var minutes = Math.floor((secondsLeft % (60 * 60)) / 60);
+            function timer() {
+              var currentDate = new Date();
+              var secondsLeft = Math.floor((endDate - currentDate) / 1000);
+              var days = Math.floor(secondsLeft / (24 * 60 * 60));
+              var hours = Math.floor((secondsLeft % (24 * 60 * 60)) / (60 * 60));
+              var minutes = Math.floor((secondsLeft % (60 * 60)) / 60);
 
               
-          //     $(".hero-timer .days-text").text(num_word(days, ['день', 'дня', 'дней']));
-          //     $(".hero-timer .hours-text").text(num_word(hours, ['час', 'часа', 'часов']));
-          //     $(".hero-timer .minutes-text").text(num_word(minutes, ['минута', 'минуты', 'минут']));
+              $(".hero-timer .days-text").text(num_word(days, ['день', 'дня', 'дней']));
+              $(".hero-timer .hours-text").text(num_word(hours, ['час', 'часа', 'часов']));
+              $(".hero-timer .minutes-text").text(num_word(minutes, ['минута', 'минуты', 'минут']));
 
-          //     if(days < 10) {
-          //       days = "0" + days;
-          //     }
+              if(days < 10) {
+                days = "0" + days;
+              }
 
-          //     if(hours < 10) {
-          //       hours = "0" + hours;
-          //     }
+              if(hours < 10) {
+                hours = "0" + hours;
+              }
 
-          //     if(minutes < 10) {
-          //       minutes = "0" + minutes;
-          //     }
+              if(minutes < 10) {
+                minutes = "0" + minutes;
+              }
 
-          //     $(".hero-timer .days").text(days);
-          //     $(".hero-timer .hours").text(hours);
-          //     $(".hero-timer .minutes").text(minutes);
-          //   }
+              $(".hero-timer .days").text(days);
+              $(".hero-timer .hours").text(hours);
+              $(".hero-timer .minutes").text(minutes);
+            }
 
-          //   var endDate = new Date(2025, 1, 10);
-          //   timer();
-          //   setInterval(timer(), 1000);
-          // });
+            var endDate = new Date(2025, 7, 20);
+            timer();
+            setInterval(timer(), 1000);
+          });
         </script>
         <div class="hero-box">
             <section class="hero">
@@ -90,7 +90,7 @@
                     <p class="h1">Season ii <span>cbt</span></p>
                     <p class="body-14mu">Открытие сервера 20 июля 2025</p>
                     <p class="body-12mu">20:00 GMT +3</p>
-                    <!-- <div class="hero-timer-wrap">
+                    <div class="hero-timer-wrap">
                         <div class="hero-timer-wrap-item">
                             <p class="days h4"></p>
                             <p class="days-text body-12mu"></p>
@@ -103,7 +103,7 @@
                             <p class="minutes h4"></p>
                             <p class="minutes-text body-12mu"></p>
                         </div>
-                    </div> -->
+                    </div>
                     <a href="#" target="_blank" class="main-btn body-14mu">Регистрация</a>
                     <div class="gift">
                         <img src="assets/img/gift.png" alt="gift">
