@@ -61,7 +61,7 @@
               $(".hero-timer .minutes").text(minutes);
             }
 
-            var endDate = new Date(2025, 7, 20);
+            var endDate = new Date(2025, 6, 20);
             timer();
             setInterval(timer(), 1000);
           });
