@@ -69,8 +69,10 @@
         <div class="hero-box">
             <section class="hero">
                 <picture class="hero-bgbefore">
-                    <source srcset="assets/img/bg-m.webp" media="(max-width: 768px)" >
-                    <source srcset="assets/img/bgbefore.webp">
+                    <!-- <source srcset="assets/img/bg-m.webp" media="(max-width: 768px)" >
+                    <source srcset="assets/img/bgbefore.webp"> -->
+                    <source srcset="assets/img/hero-mobile.webp" media="(max-width: 768px)" >
+                    <source srcset="assets/img/hero.webp">
                     <img src="assets/img/bgbefore.png" alt="baza">
                 </picture>
                 <picture class="hero-bgafter">
@@ -84,9 +86,10 @@
                 </picture>
 
                 <div class="hero-timer">
-                    <p class="body-14mu">Открытие 11 января 2025</p>
+                    <p class="h6">Season i <span>live</span></p>
+                    <p class="h1">Season ii <span>cbt</span></p>
+                    <p class="body-14mu">Открытие сервера 20 июля 2025</p>
                     <p class="body-12mu">20:00 GMT +3</p>
-                    <a href="https://t.me/bazaproject_bot" target="_blank" class="primary-btn body-14mu">начать игру</a>
                     <!-- <div class="hero-timer-wrap">
                         <div class="hero-timer-wrap-item">
                             <p class="days h4"></p>
@@ -101,6 +104,13 @@
                             <p class="minutes-text body-12mu"></p>
                         </div>
                     </div> -->
+                    <a href="#" target="_blank" class="main-btn body-14mu">Регистрация</a>
+                    <div class="gift">
+                        <img src="assets/img/gift.png" alt="gift">
+                        <p class="body-14mp">Осталось 300 из 1000 стартовых подарков</p>
+                        <div class="gift-line"></div>
+                        <a href="#" class="gift-btn body-14mu">Получить</a>
+                    </div>
                 </div>
                 
                 <div class="stories">
@@ -108,9 +118,12 @@
                     <div class="stories-item"><img src="assets/img/story2.png" alt="story"></div>
                     <div class="stories-item"><img src="assets/img/story3.png" alt="story"></div>
                     <div class="stories-item"><img src="assets/img/story4.png" alt="story"></div>
+                    <div class="stories-item"><img src="assets/img/story2.png" alt="story"></div>
+                    <div class="stories-item"><img src="assets/img/story3.png" alt="story"></div>
+                    <div class="stories-item"><img src="assets/img/story4.png" alt="story"></div>
                 </div>
 
-                <a href="#" class="gift">
+                <!-- <a href="#" class="gift">
                     <img src="assets/img/chest.png" alt="chest">
                     <p class="h8">Хочешь предстартовую коробку?</p>
                     <div class="gift-line">
@@ -118,7 +131,7 @@
                         <span class="body-12mu">Осталось 1103 из 3000</span>
                     </div>
                     <div class="link body-14mu">забрать подарок</div>
-                </a>
+                </a> -->
             </section>
         </div>
 
@@ -137,6 +150,20 @@
                                 <video preload="none" loop playsinline>
                                     <source src="assets/img/story1-big.mp4" type="video/mp4">
                                 </video>
+                            </div>
+                            <div class="swiper-slide stories-swiper-slide">
+                                <video preload="none" loop playsinline>
+                                  <source src="assets/img/story2-big.mp4" type="video/mp4">
+                                </video>
+                                <a href="#" class="secondary-btn body-14mu">Подробнее</a>
+                            </div>
+                            <div class="swiper-slide stories-swiper-slide">
+                                <img loading="lazy" src="assets/img/story3-big.webp" alt="">
+                                <a href="https://discord.gg/baza" class="secondary-btn body-14mu">Подробнее</a>
+                            </div>
+                            <div class="swiper-slide stories-swiper-slide">
+                                <img loading="lazy" src="assets/img/story4-big.webp" alt="">
+                                <a href="https://t.me/bazaproject_bot" class="secondary-btn body-14mu">Подробнее</a>                              
                             </div>
                             <div class="swiper-slide stories-swiper-slide">
                                 <video preload="none" loop playsinline>
@@ -186,15 +213,20 @@
                     data-wow-offset="300">
                         <a href="#" class="features-item">
                             <div class="h3">
-                                <p>Project Eva</p>
-                                <p class="plus-item">essence</p>
+                                <p>расскажем<br> и покажем</p>
+                                <!-- <p class="plus-item">essence</p> -->
                             </div>
-                            <span class="body-18rp">
+                            <!-- <span class="body-18rp">
                                 Испытай Essence по-новому! Вас ждет упрощенная добыча экипировки, покупку которой можно совершить за обычное внутриигровое золото, которое добывается с монстров
-                            </span>
-                            <video preload="none" class="features-img" autoplay loop muted playsinline>
-                                <source src="assets/img/features2.mp4" type="video/mp4">
-                            </video>
+                            </span> -->
+                            <picture preload="none" class="features-img">
+                                <source srcset="assets/img/features2.webp">
+                                <img src="assets/img/features2.png" alt="">
+                            </picture>
+                            <div class="video-link">
+                                смотреть 
+                                <img src="assets/img/play.svg" alt="" class="svg">
+                            </div>
                         </a>
                     </div>
                     <div class="features-item-wrap wow newFadeInUp animated" data-wow-duration="1s"
@@ -213,11 +245,11 @@
                     <div class="features-item-wrap wow newFadeInUp animated" data-wow-duration="1s"
                     data-wow-offset="300">
                         <div class="features-item steps-btn">
-                            <p class="h4">продуманная Экономика</p>
+                            <p class="h4">максимально<br>френдли</p>
                             <span class="body-18rp">
-                                Система для оценки силы персонажа: чем мощнее персонаж, тем выше его BAZA SCORE
+                                Продумали всё до мелочей, чтобы ты мог комфортно играть с любыми финансовыми вложениями или без них.
                             </span>
-                            <div class="primary-btn body-14mu">этапы</div>
+                            <div class="primary-btn body-14mu">Лимиты</div>
                             <picture preload="none" class="features-img">
                                 <source srcset="assets/img/features4.webp">
                                 <img src="assets/img/features4.png" alt="">
@@ -557,19 +589,56 @@
 
         <section class="banner">
             <picture class="banner-bgbefore">
-                <source loading="lazy" srcset="assets/img/banner.webp">
-                <img loading="lazy" src="assets/img/banner.png" alt="baza">
+                <source loading="lazy" srcset="assets/img/banner-new.webp">
+                <img loading="lazy" src="assets/img/banner-new.png" alt="baza">
             </picture>
-            <picture class="banner-bgafter">
+            <!-- <picture class="banner-bgafter">
                 <source loading="lazy" srcset="assets/img/banner2.webp">
                 <img loading="lazy" src="assets/img/banner2.png" alt="baza">
-            </picture>
+            </picture> -->
             <canvas id="canvas"></canvas>
             <div class="container">
-                <p class="h1">Погрузись в атмосферу project eva</p>
+                <p class="h1">шутки в сторону<br>отправляйся на базу</p>
                 <div class="btns">
                     <a href="#" class="main-btn body-14mu">регистрация</a>
                     <a href="#" class="primary-btn body-14mu">Скачать файлы</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="who">
+            <div class="container">
+                <div class="who-line who-line_big">
+                    <div class="who-line__current"></div>
+                </div>
+                <p class="h2">кто идет играть?</p>
+                <div class="who-line">
+                    <div class="who-line__current"></div>
+                </div>
+                <div class="swiper who__swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide h3">puprle</div>
+                        <div class="swiper-slide h3">aden</div>
+                        <div class="swiper-slide h3">clanname</div>
+                        <div class="swiper-slide h3">aden</div>
+                        <div class="swiper-slide h3">longnameclan</div>
+                        <div class="swiper-slide h3">masters</div>
+                        <div class="swiper-slide h3">thevip</div>
+                        <div class="swiper-slide h3">soprano</div>
+                        <div class="swiper-slide h3">blackwhite</div>
+                        <div class="swiper-slide h3">puprle</div>
+                        <div class="swiper-slide h3">aden</div>
+                        <div class="swiper-slide h3">clanname</div>
+                        <div class="swiper-slide h3">aden</div>
+                        <div class="swiper-slide h3">longnameclan</div>
+                        <div class="swiper-slide h3">masters</div>
+                        <div class="swiper-slide h3">thevip</div>
+                        <div class="swiper-slide h3">soprano</div>
+                        <div class="swiper-slide h3">blackwhite</div>
+                    </div>
+                </div>
+                <div class="who-line who-line_big">
+                    <div class="who-line__current"></div>
                 </div>
             </div>
         </section>
@@ -747,7 +816,7 @@
 
         <section class="contacts">
             <picture class="contacts-bg">
-                <source loading="lazy" srcset="assets/img/socials.webp">
+                <source loading="lazy" srcset="assets/img/socials2.webp">
                 <img loading="lazy" src="assets/img/socials.png" alt="baza">
             </picture>
             <div class="container">
@@ -806,21 +875,18 @@
         </div>
         <div class="footer-mid">
             <div class="footer-mid-partners">
-                <div class="footer-mid-partners-item hover">
-                    <img src="assets/img/visa.svg" class="svg">
-                </div>
-                <div class="footer-mid-partners-item hover">
-                    <img src="assets/img/mc.svg" class="svg">
-                </div>
-                <div class="footer-mid-partners-item hover">
-                    <img src="assets/img/mir.svg" class="svg">
-                </div>
-                <div class="footer-mid-partners-item hover">
-                    <img src="assets/img/bitcoin.svg" class="svg">
-                </div>
-                <div class="footer-mid-partners-item hover">
-                    <img src="assets/img/sbp.svg" class="svg">
-                </div>
+                <a href="#" class="footer-mid-partners-item">
+                    <img src="assets/img/trovo.svg" class="svg">
+                </a>
+                <a href="#" class="footer-mid-partners-item">
+                    <img src="assets/img/instagram.svg" class="svg">
+                </a>
+                <a href="#" class="footer-mid-partners-item">
+                    <img src="assets/img/tiktok.svg" class="svg">
+                </a>
+                <a href="#" class="footer-mid-partners-item">
+                    <img src="assets/img/youtube.svg" class="svg">
+                </a>
             </div>
             <p class="body-14m">HONKONG TANG DYNASTY INDUSTRY TRADE LIMITED.<br> Company Registration No. : 2658020</p>
         </div>

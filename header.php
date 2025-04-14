@@ -28,6 +28,7 @@
                 <li class="header-menu-item body-14mu"><a href="#">Скачать файлы</a></li>
                 <li class="header-menu-item body-14mu"><a href="#">Пожертвования</a></li>
                 <li class="header-menu-item body-14mu"><a href="#">Discord</a></li>
+                <li class="header-menu-item body-14mu"><a href="#">telegram</a></li>
             </ul>
         </nav>
         <div class="header-right">
@@ -37,7 +38,7 @@
                 </a>
             </div>
             <a href="#" class="primary-btn body-14mu">Вход</a>
-            <a href="#" class="main-btn body-14mu">регистрация</a>
+            <a href="#" class="white-btn body-14mu">регистрация</a>
         </div>
     </header>
 

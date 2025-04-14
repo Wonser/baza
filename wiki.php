@@ -69,10 +69,6 @@
                                 <img src="assets/img/wiki-tab1.svg" alt="">
                                 <p class="h3">новые решения</p>
                             </div>
-                            <picture>
-                                <source srcset="assets/img/photo.webp">
-                                <img src="assets/img/photo.png" alt="">
-                            </picture>
                             <p class="h4 anchor-block" id="anchor1">особенности</p>
                             <p class="h6">Новое дыхание для группового взаимодействия</p>
                             <p class="body-18rp">
@@ -92,10 +88,6 @@
                                 <img src="assets/img/wiki-tab2.svg" alt="">
                                 <p class="h3">гейм-дизайн</p>
                             </div>
-                            <picture>
-                                <source srcset="assets/img/photo2.webp">
-                                <img src="assets/img/photo2.png" alt="">
-                            </picture>
                             <p class="h4 anchor-block" id="anchor3">система синергии</p>
                             <p class="h6">Новое дыхание для группового взаимодействия</p>
                             <p class="body-18rp">
@@ -108,16 +100,418 @@
                                     Исправлена ошибка, из-за которой эффект уменьшения длительности дебаффов/аномалий от навыков Природный Дух и Благословение Природы (Повелитель Стихий) не работал.
                                 </p>
                             </div>
+                            <div class="spoilers">
+                                <div class="spoiler">
+                                    <div class="spoiler__head body-18mp">Spoiler I</div>
+                                    <div class="spoiler__content">
+                                        <div class="spoiler__wrap">
+                                            <p class="body-18rp">
+                                                Это уникальная возможность усилить группу и разнообразить составы в вашей повседневности! <br><br>
+                                                
+                                                Каждый класс вносит уникальный вклад, предоставляя особый эффект всем членам группы, что делает каждого героя важным элементом общего успеха!
+                                            </p>
+                                            <div class="table-wrap">
+                                                <table>
+                                                    <tr class="body-18bp">
+                                                        <th>thead</th>
+                                                        <th>thead</th>
+                                                        <th>thead</th>
+                                                        <th>thead</th>
+                                                    </tr>
+                                                    <tr class="body-18rp">
+                                                        <td class="body-18bp"><img src="assets/img/table.png" alt="">thead</td>
+                                                        <td></td>
+                                                        <td><a href="#">thead</a></td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr class="body-18rp">
+                                                        <td class="body-18bp"><img src="assets/img/table.png" alt="">thead</td>
+                                                        <td>thead</td>
+                                                        <td>thead</td>
+                                                        <td>thead</td>
+                                                    </tr>
+                                                    <tr class="body-18rp">
+                                                        <td class="body-18bp"><img src="assets/img/table.png" alt="">thead</td>
+                                                        <td></td>
+                                                        <td>thead</td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr class="body-18rp">
+                                                        <td class="body-18bp"><img src="assets/img/table.png" alt="">thead</td>
+                                                        <td>thead</td>
+                                                        <td>thead</td>
+                                                        <td>thead</td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <p class="body-18rp">
+                                                Это уникальная возможность усилить группу и разнообразить составы в вашей повседневности! <br><br>
+                                                
+                                                Каждый класс вносит уникальный вклад, предоставляя особый эффект всем членам группы, что делает каждого героя важным элементом общего успеха!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="spoiler">
+                                    <div class="spoiler__head body-18mp">Spoiler II</div>
+                                    <div class="spoiler__content">
+                                        <div class="spoiler__wrap">
+                                            <p class="body-18rp">
+                                                Это уникальная возможность усилить группу и разнообразить составы в вашей повседневности! <br><br>
+                                                
+                                                Каждый класс вносит уникальный вклад, предоставляя особый эффект всем членам группы, что делает каждого героя важным элементом общего успеха!
+                                            </p>
+                                            <div class="table-wrap">
+                                                <table>
+                                                    <tr class="body-18bp">
+                                                        <th>thead</th>
+                                                        <th>thead</th>
+                                                        <th>thead</th>
+                                                        <th>thead</th>
+                                                    </tr>
+                                                    <tr class="body-18rp">
+                                                        <td class="body-18bp"><img src="assets/img/table.png" alt="">thead</td>
+                                                        <td></td>
+                                                        <td><a href="#">thead</a></td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr class="body-18rp">
+                                                        <td class="body-18bp"><img src="assets/img/table.png" alt="">thead</td>
+                                                        <td>thead</td>
+                                                        <td>thead</td>
+                                                        <td>thead</td>
+                                                    </tr>
+                                                    <tr class="body-18rp">
+                                                        <td class="body-18bp"><img src="assets/img/table.png" alt="">thead</td>
+                                                        <td></td>
+                                                        <td>thead</td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr class="body-18rp">
+                                                        <td class="body-18bp"><img src="assets/img/table.png" alt="">thead</td>
+                                                        <td>thead</td>
+                                                        <td>thead</td>
+                                                        <td>thead</td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <p class="body-18rp">
+                                                Это уникальная возможность усилить группу и разнообразить составы в вашей повседневности! <br><br>
+                                                
+                                                Каждый класс вносит уникальный вклад, предоставляя особый эффект всем членам группы, что делает каждого героя важным элементом общего успеха!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="spoiler">
+                                    <div class="spoiler__head body-18mp">Spoiler III</div>
+                                    <div class="spoiler__content">
+                                        <div class="spoiler__wrap">
+                                            <p class="body-18rp">
+                                                Это уникальная возможность усилить группу и разнообразить составы в вашей повседневности! <br><br>
+                                                
+                                                Каждый класс вносит уникальный вклад, предоставляя особый эффект всем членам группы, что делает каждого героя важным элементом общего успеха!
+                                            </p>
+                                            <div class="table-wrap">
+                                                <table>
+                                                    <tr class="body-18bp">
+                                                        <th>thead</th>
+                                                        <th>thead</th>
+                                                        <th>thead</th>
+                                                        <th>thead</th>
+                                                    </tr>
+                                                    <tr class="body-18rp">
+                                                        <td class="body-18bp"><img src="assets/img/table.png" alt="">thead</td>
+                                                        <td></td>
+                                                        <td><a href="#">thead</a></td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr class="body-18rp">
+                                                        <td class="body-18bp"><img src="assets/img/table.png" alt="">thead</td>
+                                                        <td>thead</td>
+                                                        <td>thead</td>
+                                                        <td>thead</td>
+                                                    </tr>
+                                                    <tr class="body-18rp">
+                                                        <td class="body-18bp"><img src="assets/img/table.png" alt="">thead</td>
+                                                        <td></td>
+                                                        <td>thead</td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr class="body-18rp">
+                                                        <td class="body-18bp"><img src="assets/img/table.png" alt="">thead</td>
+                                                        <td>thead</td>
+                                                        <td>thead</td>
+                                                        <td>thead</td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <p class="body-18rp">
+                                                Это уникальная возможность усилить группу и разнообразить составы в вашей повседневности! <br><br>
+                                                
+                                                Каждый класс вносит уникальный вклад, предоставляя особый эффект всем членам группы, что делает каждого героя важным элементом общего успеха!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tabs">
+                                <div class="tabs__nav body-18mp">
+                                    <div class="tabs__nav-item active">Снаряжение</div>
+                                    <div class="tabs__nav-item">Предметы и ресурсы</div>
+                                    <div class="tabs__nav-item">Другое</div>
+                                    <div class="tabs__nav-item">Древняя адена</div>
+                                    <div class="tabs__nav-item">Товары за адену</div>
+                                </div>
+                                <div class="tabs__items">
+                                    <div class="tabs__item active">
+                                        <div class="tabs__content">
+                                            <p class="body-18rp">
+                                                Это уникальная возможность усилить группу и разнообразить составы в вашей повседневности! <br><br>
+                                                
+                                                Каждый класс вносит уникальный вклад, предоставляя особый эффект всем членам группы, что делает каждого героя важным элементом общего успеха!
+                                            </p>
+                                            <div class="table-wrap">
+                                                <table>
+                                                    <tr class="body-18bp">
+                                                        <th>thead</th>
+                                                        <th>thead</th>
+                                                        <th>thead</th>
+                                                        <th>thead</th>
+                                                    </tr>
+                                                    <tr class="body-18rp">
+                                                        <td class="body-18bp"><img src="assets/img/table.png" alt="">thead</td>
+                                                        <td></td>
+                                                        <td><a href="#">thead</a></td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr class="body-18rp">
+                                                        <td class="body-18bp"><img src="assets/img/table.png" alt="">thead</td>
+                                                        <td>thead</td>
+                                                        <td>thead</td>
+                                                        <td>thead</td>
+                                                    </tr>
+                                                    <tr class="body-18rp">
+                                                        <td class="body-18bp"><img src="assets/img/table.png" alt="">thead</td>
+                                                        <td></td>
+                                                        <td>thead</td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr class="body-18rp">
+                                                        <td class="body-18bp"><img src="assets/img/table.png" alt="">thead</td>
+                                                        <td>thead</td>
+                                                        <td>thead</td>
+                                                        <td>thead</td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <p class="body-18rp">
+                                                Это уникальная возможность усилить группу и разнообразить составы в вашей повседневности! <br><br>
+                                                
+                                                Каждый класс вносит уникальный вклад, предоставляя особый эффект всем членам группы, что делает каждого героя важным элементом общего успеха!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="tabs__item">
+                                        <div class="tabs__content">
+                                            <p class="body-18rp">
+                                                Это уникальная возможность усилить группу и разнообразить составы в вашей повседневности! <br><br>
+                                                
+                                                Каждый класс вносит уникальный вклад, предоставляя особый эффект всем членам группы, что делает каждого героя важным элементом общего успеха!
+                                            </p>
+                                            <div class="table-wrap">
+                                                <table>
+                                                    <tr class="body-18bp">
+                                                        <th>thead</th>
+                                                        <th>thead</th>
+                                                        <th>thead</th>
+                                                        <th>thead</th>
+                                                    </tr>
+                                                    <tr class="body-18rp">
+                                                        <td class="body-18bp"><img src="assets/img/table.png" alt="">thead</td>
+                                                        <td></td>
+                                                        <td><a href="#">thead</a></td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr class="body-18rp">
+                                                        <td class="body-18bp"><img src="assets/img/table.png" alt="">thead</td>
+                                                        <td>thead</td>
+                                                        <td>thead</td>
+                                                        <td>thead</td>
+                                                    </tr>
+                                                    <tr class="body-18rp">
+                                                        <td class="body-18bp"><img src="assets/img/table.png" alt="">thead</td>
+                                                        <td></td>
+                                                        <td>thead</td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr class="body-18rp">
+                                                        <td class="body-18bp"><img src="assets/img/table.png" alt="">thead</td>
+                                                        <td>thead</td>
+                                                        <td>thead</td>
+                                                        <td>thead</td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <p class="body-18rp">
+                                                Это уникальная возможность усилить группу и разнообразить составы в вашей повседневности! <br><br>
+                                                
+                                                Каждый класс вносит уникальный вклад, предоставляя особый эффект всем членам группы, что делает каждого героя важным элементом общего успеха!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="tabs__item">
+                                        <div class="tabs__content">
+                                            <p class="body-18rp">
+                                                Это уникальная возможность усилить группу и разнообразить составы в вашей повседневности! <br><br>
+                                                
+                                                Каждый класс вносит уникальный вклад, предоставляя особый эффект всем членам группы, что делает каждого героя важным элементом общего успеха!
+                                            </p>
+                                            <div class="table-wrap">
+                                                <table>
+                                                    <tr class="body-18bp">
+                                                        <th>thead</th>
+                                                        <th>thead</th>
+                                                        <th>thead</th>
+                                                        <th>thead</th>
+                                                    </tr>
+                                                    <tr class="body-18rp">
+                                                        <td class="body-18bp"><img src="assets/img/table.png" alt="">thead</td>
+                                                        <td></td>
+                                                        <td><a href="#">thead</a></td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr class="body-18rp">
+                                                        <td class="body-18bp"><img src="assets/img/table.png" alt="">thead</td>
+                                                        <td>thead</td>
+                                                        <td>thead</td>
+                                                        <td>thead</td>
+                                                    </tr>
+                                                    <tr class="body-18rp">
+                                                        <td class="body-18bp"><img src="assets/img/table.png" alt="">thead</td>
+                                                        <td></td>
+                                                        <td>thead</td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr class="body-18rp">
+                                                        <td class="body-18bp"><img src="assets/img/table.png" alt="">thead</td>
+                                                        <td>thead</td>
+                                                        <td>thead</td>
+                                                        <td>thead</td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <p class="body-18rp">
+                                                Это уникальная возможность усилить группу и разнообразить составы в вашей повседневности! <br><br>
+                                                
+                                                Каждый класс вносит уникальный вклад, предоставляя особый эффект всем членам группы, что делает каждого героя важным элементом общего успеха!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="tabs__item">
+                                        <div class="tabs__content">
+                                            <p class="body-18rp">
+                                                Это уникальная возможность усилить группу и разнообразить составы в вашей повседневности! <br><br>
+                                                
+                                                Каждый класс вносит уникальный вклад, предоставляя особый эффект всем членам группы, что делает каждого героя важным элементом общего успеха!
+                                            </p>
+                                            <div class="table-wrap">
+                                                <table>
+                                                    <tr class="body-18bp">
+                                                        <th>thead</th>
+                                                        <th>thead</th>
+                                                        <th>thead</th>
+                                                        <th>thead</th>
+                                                    </tr>
+                                                    <tr class="body-18rp">
+                                                        <td class="body-18bp"><img src="assets/img/table.png" alt="">thead</td>
+                                                        <td></td>
+                                                        <td><a href="#">thead</a></td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr class="body-18rp">
+                                                        <td class="body-18bp"><img src="assets/img/table.png" alt="">thead</td>
+                                                        <td>thead</td>
+                                                        <td>thead</td>
+                                                        <td>thead</td>
+                                                    </tr>
+                                                    <tr class="body-18rp">
+                                                        <td class="body-18bp"><img src="assets/img/table.png" alt="">thead</td>
+                                                        <td></td>
+                                                        <td>thead</td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr class="body-18rp">
+                                                        <td class="body-18bp"><img src="assets/img/table.png" alt="">thead</td>
+                                                        <td>thead</td>
+                                                        <td>thead</td>
+                                                        <td>thead</td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <p class="body-18rp">
+                                                Это уникальная возможность усилить группу и разнообразить составы в вашей повседневности! <br><br>
+                                                
+                                                Каждый класс вносит уникальный вклад, предоставляя особый эффект всем членам группы, что делает каждого героя важным элементом общего успеха!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="tabs__item">
+                                        <div class="tabs__content">
+                                            <p class="body-18rp">
+                                                Это уникальная возможность усилить группу и разнообразить составы в вашей повседневности! <br><br>
+                                                
+                                                Каждый класс вносит уникальный вклад, предоставляя особый эффект всем членам группы, что делает каждого героя важным элементом общего успеха!
+                                            </p>
+                                            <div class="table-wrap">
+                                                <table>
+                                                    <tr class="body-18bp">
+                                                        <th>thead</th>
+                                                        <th>thead</th>
+                                                        <th>thead</th>
+                                                        <th>thead</th>
+                                                    </tr>
+                                                    <tr class="body-18rp">
+                                                        <td class="body-18bp"><img src="assets/img/table.png" alt="">thead</td>
+                                                        <td></td>
+                                                        <td><a href="#">thead</a></td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr class="body-18rp">
+                                                        <td class="body-18bp"><img src="assets/img/table.png" alt="">thead</td>
+                                                        <td>thead</td>
+                                                        <td>thead</td>
+                                                        <td>thead</td>
+                                                    </tr>
+                                                    <tr class="body-18rp">
+                                                        <td class="body-18bp"><img src="assets/img/table.png" alt="">thead</td>
+                                                        <td></td>
+                                                        <td>thead</td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr class="body-18rp">
+                                                        <td class="body-18bp"><img src="assets/img/table.png" alt="">thead</td>
+                                                        <td>thead</td>
+                                                        <td>thead</td>
+                                                        <td>thead</td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <p class="body-18rp">
+                                                Это уникальная возможность усилить группу и разнообразить составы в вашей повседневности! <br><br>
+                                                
+                                                Каждый класс вносит уникальный вклад, предоставляя особый эффект всем членам группы, что делает каждого героя важным элементом общего успеха!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="default-content-item">
                             <div id="section3" class="default-content-item-head">
                                 <img src="assets/img/wiki-tab3.svg" alt="">
                                 <p class="h3">интерфейс</p>
                             </div>
-                            <picture>
-                                <source srcset="assets/img/photo2.webp">
-                                <img src="assets/img/photo2.png" alt="">
-                            </picture>
                             <p class="h4 anchor-block" id="anchor5">система синергии</p>
                             <p class="h6">Новое дыхание для группового взаимодействия</p>
                             <p class="body-18rp">
@@ -230,16 +624,16 @@
 
         <section class="banner">
             <picture class="banner-bgbefore">
-                <source loading="lazy" srcset="assets/img/banner.webp">
-                <img loading="lazy" src="assets/img/banner.png" alt="baza">
+                <source loading="lazy" srcset="assets/img/banner-new.webp">
+                <img loading="lazy" src="assets/img/banner-new.png" alt="baza">
             </picture>
-            <picture class="banner-bgafter">
+            <!-- <picture class="banner-bgafter">
                 <source loading="lazy" srcset="assets/img/banner2.webp">
                 <img loading="lazy" src="assets/img/banner2.png" alt="baza">
-            </picture>
+            </picture> -->
             <canvas id="canvas"></canvas>
             <div class="container">
-                <p class="h1">Погрузись в атмосферу project eva</p>
+                <p class="h1">шутки в сторону<br>отправляйся на базу</p>
                 <div class="btns">
                     <a href="#" class="main-btn body-14mu">регистрация</a>
                     <a href="#" class="primary-btn body-14mu">Скачать файлы</a>
@@ -247,11 +641,10 @@
             </div>
         </section>
 
-        
         <section class="contacts contacts_space">
             <picture class="contacts-bg">
-                <source srcset="assets/img/socials.webp">
-                <img src="assets/img/socials.png" alt="baza">
+                <source loading="lazy" srcset="assets/img/socials2.webp">
+                <img loading="lazy" src="assets/img/socials.png" alt="baza">
             </picture>
             <div class="container">
                 <p class="h2">вступай в ряды<br> нашего сообщества</p>
@@ -308,21 +701,18 @@
         </div>
         <div class="footer-mid">
             <div class="footer-mid-partners">
-                <div class="footer-mid-partners-item hover">
-                    <img src="assets/img/visa.svg" class="svg">
-                </div>
-                <div class="footer-mid-partners-item hover">
-                    <img src="assets/img/mc.svg" class="svg">
-                </div>
-                <div class="footer-mid-partners-item hover">
-                    <img src="assets/img/mir.svg" class="svg">
-                </div>
-                <div class="footer-mid-partners-item hover">
-                    <img src="assets/img/bitcoin.svg" class="svg">
-                </div>
-                <div class="footer-mid-partners-item hover">
-                    <img src="assets/img/sbp.svg" class="svg">
-                </div>
+                <a href="#" class="footer-mid-partners-item">
+                    <img src="assets/img/trovo.svg" class="svg">
+                </a>
+                <a href="#" class="footer-mid-partners-item">
+                    <img src="assets/img/instagram.svg" class="svg">
+                </a>
+                <a href="#" class="footer-mid-partners-item">
+                    <img src="assets/img/tiktok.svg" class="svg">
+                </a>
+                <a href="#" class="footer-mid-partners-item">
+                    <img src="assets/img/youtube.svg" class="svg">
+                </a>
             </div>
             <p class="body-14m">HONKONG TANG DYNASTY INDUSTRY TRADE LIMITED.<br> Company Registration No. : 2658020</p>
         </div>

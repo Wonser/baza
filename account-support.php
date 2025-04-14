@@ -122,43 +122,47 @@
             <div class="arcticmodal-close form-wrap-close">
                 <img src="assets/img/close.svg" alt="svg" class="svg">
             </div>
-            <p class="h5">СОздать тикет</p>
-            <label>
-                <span class="body-12bu">Заголовок</span>
-                <input type="text" class="form-input" placeholder="Введите заголовок">
-            </label>
-            <label>
-                <span class="body-12bu">Описание</span>
-                <textarea class="form-input" placeholder="Введите описание"></textarea>
-            </label>
-            <div class="labels">
-                <label>
-                    <span class="body-12bu">Категория</span>
-                    <div class="custom-select">
-                        <select class="form-input">
-                            <option value="" disabled selected>Выберите из списка</option>
-                            <option value="1">Технический отдел</option>
-                        </select>
+            <p class="h5">СОздать тикет</p>         
+            <div class="form-wrap__box">
+                <div class="form-wrap__left">
+                    <label>
+                        <span class="body-12bu">Заголовок</span>
+                        <input type="text" class="form-input" placeholder="Введите заголовок">
+                    </label>
+                    <label>
+                        <span class="body-12bu">Описание</span>
+                        <textarea class="form-input" placeholder="Введите описание"></textarea>
+                    </label>
+                    <label>
+                        <span class="body-12bu">Категория</span>
+                        <div class="custom-select">
+                            <select class="form-input">
+                                <option value="" disabled selected>Выберите из списка</option>
+                                <option value="1">Технический отдел</option>
+                            </select>
+                        </div>
+                    </label>
+                </div>
+                <div class="form-wrap__right">
+                    <label class="input-file">
+                        <span class="body-12bu">Изображение (JPG или PNG)</span>
+                        <input type="file" name="file" accept="image/*">
+                        <div class="file-image form-input body-16rp">
+                            <img src="#" alt="" class="file-preview">
+                            <img src="assets/img/img.svg" alt="">
+                            <p class="">Вставье сюда изображение из буфера обмена или перенесите</p>
+                            <div class="form-input">Выберите файл</div>
+                        </div>
+                        <div class="file-btn body-16rp">
+                            <div class="btn">Выберите файл</div>
+                            <div class="file-btn-text">Файл не выбран</div>
+                        </div>           
+                    </label>
+                    <div class="file-remove">
+                        <img src="assets/img/trash.svg" alt="">
                     </div>
-                </label>
-                <label>
-                    <span class="body-12bu">Приоритет</span>
-                    <div class="custom-select">
-                        <select class="form-input">
-                            <option value="" disabled selected>Низкий</option>
-                            <option value="1">Высокий</option>
-                        </select>
-                    </div>
-                </label>
+                </div>
             </div>
-            <label class="input-file">
-                <span class="body-12bu">Изображение (JPG или PNG)</span>
-                <input type="file" name="file">
-                <div class="file-btn body-16rp">
-                    <div class="btn">Выберите файл</div>
-                    <div class="file-btn-text">Файл не выбран</div>
-                </div>           
-            </label>
             <input type="submit" value="Создать тикет" class="main-btn body-14mu">
         </form>
         <div class="modal-overlay arcticmodal-close"></div>

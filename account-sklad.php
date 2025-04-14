@@ -285,10 +285,13 @@
             </label>
             <label>
                 <span class="body-12bu">Количество</span>
-                <div class="number-wrap">
-                    <input type="number" class="form-input" min="0" max="100000000" value="0"  placeholder="0">
-                    <div class="plus"></div>
-                    <div class="minus"></div>
+                <div class="count-input">
+                    <div class="number-wrap">
+                        <input type="number" class="form-input" min="0" max="3000" value="0"  placeholder="0">
+                        <div class="plus"></div>
+                        <div class="minus"></div>
+                    </div>
+                    <div class="count-all primary-btn body-12mu">Все</div>
                 </div>
             </label>
             <input type="submit" value="Отправить" class="main-btn body-14mu">

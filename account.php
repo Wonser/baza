@@ -55,7 +55,7 @@
                 </div>
             </div>
             <a href="#" class="account-nav-list-item">
-                <img src="assets/img/nav-icon5.svg" class="svg" alt="">
+                <img src="assets/img/nav-icon5.svg" class="svg" alt="B">
                 <p class="body-16mp">Поддержка</p>
             </a>
         </div>
@@ -122,7 +122,7 @@
                 <p class="h5">Игровые аккаунты</p>
                 <div class="main-btn body-14mu create-btn">Создать аккаунт</div>
             </div>
-            <div class="account-table">
+            <div class="account-table account-table_main">
                 <div class="account-table-item account-table-item_head">
                     <div class="account-table-item-inner">
                         <span class="body-14mu">Логин</span>
@@ -131,7 +131,7 @@
                         <span class="body-14mu">дата регистрации</span>
                     </div>
                     <div class="account-table-item-inner">
-                        <span class="body-14mu">действия</span>
+                        <span class="body-14mu"></span>
                     </div>
                 </div>
                 <div class="account-table-item">
@@ -142,7 +142,15 @@
                         <p class="body-16rp">23 октября 2024, 20:54:33</p>
                     </div>
                     <div class="account-table-item-inner">
-                        <div class="primary-btn body-14mu change-btn" data-login="MFlogin">Изменить пароль</div>
+                        <div class="settings-btn">
+                            <img src="assets/img/settings-filed.svg" class="svg" alt="">
+                        </div>
+                        <div class="settings-wrap">
+                            <div class="settings-wrap__inner body-16rp">
+                                <div class="settings-wrap__link change-btn" data-login="MFlogin">Изменить пароль</div>
+                                <div class="settings-wrap__link" data-login="MFlogin">Удалить</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="account-table-item">
@@ -153,7 +161,15 @@
                         <p class="body-16rp">23 октября 2024, 20:54:33</p>
                     </div>
                     <div class="account-table-item-inner">
-                        <div class="primary-btn body-14mu change-btn" data-login="SAlogin2">Изменить пароль</div>
+                        <div class="settings-btn">
+                            <img src="assets/img/settings-filed.svg" class="svg" alt="">
+                        </div>
+                        <div class="settings-wrap">
+                            <div class="settings-wrap__inner body-16rp">
+                                <div class="settings-wrap__link change-btn" data-login="SAlogin2">Изменить пароль</div>
+                                <div class="settings-wrap__link" data-login="MFlogin">Удалить</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="account-table-item">
@@ -164,7 +180,15 @@
                         <p class="body-16rp">23 октября 2024, 20:54:33</p>
                     </div>
                     <div class="account-table-item-inner">
-                        <div class="primary-btn body-14mu change-btn" data-login="MFlogin">Изменить пароль</div>
+                        <div class="settings-btn">
+                            <img src="assets/img/settings-filed.svg" class="svg" alt="">
+                        </div>
+                        <div class="settings-wrap">
+                            <div class="settings-wrap__inner body-16rp">
+                                <div class="settings-wrap__link change-btn" data-login="MFlogin">Изменить пароль</div>
+                                <div class="settings-wrap__link" data-login="MFlogin">Удалить</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="account-table-item">
@@ -175,7 +199,15 @@
                         <p class="body-16rp">23 октября 2024, 20:54:33</p>
                     </div>
                     <div class="account-table-item-inner">
-                        <div class="primary-btn body-14mu change-btn" data-login="SAlogin2">Изменить пароль</div>
+                        <div class="settings-btn">
+                            <img src="assets/img/settings-filed.svg" class="svg" alt="">
+                        </div>
+                        <div class="settings-wrap">
+                            <div class="settings-wrap__inner body-16rp">
+                                <div class="settings-wrap__link change-btn" data-login="SAlogin2">Изменить пароль</div>
+                                <div class="settings-wrap__link" data-login="MFlogin">Удалить</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
