@@ -106,7 +106,10 @@
                     </div>
                     <a href="#" target="_blank" class="main-btn body-14mu">Регистрация</a>
                     <div class="gift">
-                        <img src="assets/img/gift.png" alt="gift">
+                        <!-- <img src="assets/img/gift.png" alt="gift"> -->
+                        <video class="gift-img" autoplay loop muted playsinline>
+                            <source src="assets/img/gift.webm" type="video/mp4">
+                        </video>
                         <p class="body-14mp">Осталось 300 из 1000 стартовых подарков</p>
                         <div class="gift-line"></div>
                         <a href="#" class="gift-btn body-14mu">Получить</a>
@@ -134,8 +137,6 @@
                 </a> -->
             </section>
         </div>
-
-
 
         <div style="display: none;">
             <div class="box-modal stories-modal" id="storiesModal">
@@ -258,10 +259,14 @@
                     </div>
                     <div class="features-item-wrap wow newFadeInUp animated" data-wow-duration="1s"
                     data-wow-offset="300">
-                        <a href="#" class="features-item">
-                            <p class="h3">система<br> дивизионов<br> кланов</p>
-                            <video preload="none" class="features-img" autoplay loop muted playsinline>
-                                <source src="assets/img/features5.mp4" type="video/mp4">
+                        <a href="https://ba-za.gg/wiki" class="features-item">
+                            <div class="h3">
+                                <p>Project Wolf</p> <p class="plus-item">essence</p>
+                            </div>
+                            <span class="body-18rp"> Лучшие решения Эссенц фришардов с элементами экономики и фишками Волка  —  всё это в одном концепте!
+                            </span>
+                            <video preload="none" class="features-img" autoplay="" loop="" muted="" playsinline="">
+                                <source src="assets/img/features_wolf.mp4" type="video/mp4">
                             </video>
                         </a>
                     </div>
@@ -617,6 +622,24 @@
                 </div>
                 <div class="swiper who__swiper">
                     <div class="swiper-wrapper">
+                        <div class="swiper-slide h3">puprle</div>
+                        <div class="swiper-slide h3">aden</div>
+                        <div class="swiper-slide h3">clanname</div>
+                        <div class="swiper-slide h3">aden</div>
+                        <div class="swiper-slide h3">longnameclan</div>
+                        <div class="swiper-slide h3">masters</div>
+                        <div class="swiper-slide h3">thevip</div>
+                        <div class="swiper-slide h3">soprano</div>
+                        <div class="swiper-slide h3">blackwhite</div>
+                        <div class="swiper-slide h3">puprle</div>
+                        <div class="swiper-slide h3">aden</div>
+                        <div class="swiper-slide h3">clanname</div>
+                        <div class="swiper-slide h3">aden</div>
+                        <div class="swiper-slide h3">longnameclan</div>
+                        <div class="swiper-slide h3">masters</div>
+                        <div class="swiper-slide h3">thevip</div>
+                        <div class="swiper-slide h3">soprano</div>
+                        <div class="swiper-slide h3">blackwhite</div>
                         <div class="swiper-slide h3">puprle</div>
                         <div class="swiper-slide h3">aden</div>
                         <div class="swiper-slide h3">clanname</div>
