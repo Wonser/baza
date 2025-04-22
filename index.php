@@ -108,7 +108,7 @@
                     <div class="gift">
                         <!-- <img src="assets/img/gift.png" alt="gift"> -->
                         <video class="gift-img" autoplay loop muted playsinline>
-                            <source src="assets/img/gift.webm" type="video/mp4">
+                            <source src="assets/img/gift2.webm" type="video/mp4">
                         </video>
                         <p class="body-14mp">Осталось 300 из 1000 стартовых подарков</p>
                         <div class="gift-line"></div>

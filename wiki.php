@@ -622,15 +622,15 @@
             </div>
         </section>
 
-        <section class="banner">
+        <section class="banner banner_animation">
             <picture class="banner-bgbefore">
-                <source loading="lazy" srcset="assets/img/banner-new.webp">
-                <img loading="lazy" src="assets/img/banner-new.png" alt="baza">
+                <source loading="lazy" srcset="assets/img/banner.webp">
+                <img loading="lazy" src="assets/img/banner.png" alt="baza">
             </picture>
-            <!-- <picture class="banner-bgafter">
+            <picture class="banner-bgafter">
                 <source loading="lazy" srcset="assets/img/banner2.webp">
                 <img loading="lazy" src="assets/img/banner2.png" alt="baza">
-            </picture> -->
+            </picture>
             <canvas id="canvas"></canvas>
             <div class="container">
                 <p class="h1">шутки в сторону<br>отправляйся на базу</p>
@@ -643,7 +643,7 @@
 
         <section class="contacts contacts_space">
             <picture class="contacts-bg">
-                <source loading="lazy" srcset="assets/img/socials2.webp">
+                <source loading="lazy" srcset="assets/img/socials.webp">
                 <img loading="lazy" src="assets/img/socials.png" alt="baza">
             </picture>
             <div class="container">

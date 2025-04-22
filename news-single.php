@@ -356,7 +356,7 @@
             </div>
         </section>
 
-        <section class="banner">
+        <section class="banner banner_animation">
             <picture class="banner-bgbefore">
                 <source loading="lazy" srcset="assets/img/banner.webp">
                 <img loading="lazy" src="assets/img/banner.png" alt="baza">
