@@ -224,11 +224,11 @@
                                 <source srcset="assets/img/features2.webp">
                                 <img src="assets/img/features2.png" alt="">
                             </picture>
-                            <div class="video-link">
-                                смотреть 
-                                <img src="assets/img/play.svg" alt="" class="svg">
-                            </div>
                         </a>
+                        <div class="video-link">
+                            смотреть 
+                            <img src="assets/img/play.svg" alt="" class="svg">
+                        </div>
                     </div>
                     <div class="features-item-wrap wow newFadeInUp animated" data-wow-duration="1s"
                     data-wow-offset="300">
@@ -273,6 +273,18 @@
                 </div>
             </div>
         </section>
+        <div style="display: none;">
+            <div class="box-modal video-modal" id="videoModal">
+                <div class="video-modal-wrap">
+                    <div class="arcticmodal-close video-modal-close">
+                        <img src="assets/img/close.svg" alt="svg" class="svg">
+                        <span class="body-14mu">закрыть</span>
+                    </div>
+                    <iframe width="1120" height="630" src="https://www.youtube.com/embed/5F761Hhfdxg?si=KASr1fmVujVCyxGa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="modal-overlay arcticmodal-close"></div>
+            </div>
+        </div>
 
         <div style="display: none;">
             <div class="box-modal steps-modal" id="stepsModal">
