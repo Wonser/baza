@@ -319,6 +319,10 @@ jQuery(document).ready(function($) {
     $('#stepsModal').arcticmodal();
   });
 
+  $(".video-link").on('click', function () {
+    $('#videoModal').arcticmodal();
+  });
+
   $(".create-btn").on('click', function () {
     $('#createModal').arcticmodal();
   });
