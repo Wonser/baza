@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/css/animate.min.css" media="all">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="stylesheet" href="assets/css/main.min.css" media="all">
+    <link rel="stylesheet" href="assets/css/dashboard.min.css" media="all">
     <script src="assets/js/jquery-3.7.1.min.js"></script>
     <link rel="icon" href="assets/img/favicon.svg">
     <link rel="apple-touch-icon" href="assets/img/favicon.png">
@@ -283,7 +284,7 @@
                     </select>
                 </div>
             </label>
-            <label>
+            <div class="label">
                 <span class="body-12bu">Количество</span>
                 <div class="count-input">
                     <div class="number-wrap">
@@ -293,7 +294,7 @@
                     </div>
                     <div class="count-all primary-btn body-12mu">Все</div>
                 </div>
-            </label>
+            </div>
             <input type="submit" value="Отправить" class="main-btn body-14mu">
         </form>
         <div class="modal-overlay arcticmodal-close"></div>
