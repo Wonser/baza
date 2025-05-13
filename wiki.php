@@ -649,7 +649,7 @@
                 <img loading="lazy" src="assets/img/socials.png" alt="baza">
             </picture>
             <div class="container">
-                <p class="h2">вступай в ряды<br> нашего сообщества</p>
+                <p class="h2">стань частью<br> нашего сообщества</p>
                 <div class="socials">
                     <a href="#" class="socials-item">
                         <img src="assets/img/ds.svg">
