@@ -319,9 +319,10 @@ jQuery(document).ready(function($) {
     $('#stepsModal').arcticmodal();
   });
 
-  $(".video-link").on('click', function () {
-    $('#videoModal').arcticmodal();
-  });
+  //Потом сделать на всю карточку
+  // $(".video-link").on('click', function () {
+  //   $('#videoModal').arcticmodal();
+  // });
 
   $(".create-btn").on('click', function () {
     $('#createModal').arcticmodal();
@@ -366,6 +367,8 @@ jQuery(document).ready(function($) {
   $(".item-btn").on('click', function () {
     let item = $(this).data('item');
     $('input[name=itemName]').val(item);
+    let counts = $(this).data('counts');
+    $('.count-all').attr('data-all-counts', counts);
     $('#sendModal').arcticmodal();
   });
   
@@ -816,10 +819,11 @@ if($('.banner_animation').length) {
   });
 
   $(".count-all").on('click', function () {
+    let counts = $(this).data('all-counts');
+    $('input[name=itemCounts]').val(counts);
     const input = $(this).parent().find('.form-input');
-    input.val(input.attr('max'));
+    input.val(parseInt(counts));
   });
-
 
   $(".file-image").on('dragenter', function(ev) {
     $(".file-image").addClass("drag");
