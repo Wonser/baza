@@ -1449,6 +1449,8 @@ body {
           right: 0;
           bottom: 0;
           max-height: 100%;
+          width: 100%;
+          object-fit: cover;
         }
       }
     }
@@ -1483,6 +1485,15 @@ body {
 
     &:hover {
       transform: perspective(800px) scale(.95);
+
+      .video-link {
+        background-color: #E12F27;
+        color: #fff;
+
+        path {
+          fill: #fff;
+        }
+      }
     }
   }
 
@@ -1720,6 +1731,7 @@ body {
 }
 
 .minuses {
+  margin: 70px 0;
   padding-top: 183px;
   padding-bottom: 256px;
   position: relative;
@@ -1789,6 +1801,7 @@ body {
   @media screen and (max-width: 768px) {
     padding-top: 0;
     padding-bottom: 64px;
+    margin: 0;
 
     &-bg {
       display: none;
@@ -2312,14 +2325,10 @@ body {
 
 .contacts {
   position: relative;
-  padding-top: 192px;
+  padding-top: 128px;
 
   &_space {
     margin-top: 256px;
-  }
-
-  .h2 {
-    display: none;
   }
 
   &-bg {
@@ -2340,7 +2349,7 @@ body {
       left: 50%;
       transform: translateX(-50%);
       max-width: 1800px;
-      max-height: 990px;
+      max-height: 1080px;
     }
   }
 
@@ -2376,6 +2385,7 @@ body {
   .h2 {
     margin-bottom: 64px;
     text-align: center;
+    opacity: 0;
   }
 
   .socials {
@@ -2463,9 +2473,9 @@ body {
       }
     }
 
-    @media screen and (min-width: 1400px) { 
-      margin-top: 100px;
-    }
+    // @media screen and (min-width: 1400px) { 
+    //   margin-top: 100px;
+    // }
   }
 
   @media screen and (max-width: 1400px) {
@@ -4333,6 +4343,86 @@ body {
           width: 100%;
           height: 220px;
         }
+      }
+    }
+  }
+}
+
+.who {
+  padding: 0;
+  overflow: hidden;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+  }
+
+  .h2 {
+    color: #E12F27;
+  }
+
+  &-line {
+    height: 64px;
+    width: 1px;
+    background-color: #1F1F1F;
+    position: relative;
+    overflow: hidden;
+
+    &_big {
+      height: 256px;
+    }
+
+    &__current {
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 0;
+      width: 100%;
+      background-color: #fff;
+      transition: linear;
+    }
+  }
+
+  .swiper {
+    width: 100vw;
+    transform: translateX(-25%);
+    overflow: visible;
+
+    &-slide {
+      width: auto;
+    }
+
+    &-wrapper {
+      transition-timing-function: linear;
+    }
+  }
+
+  @media screen and (max-width: 1400px) {
+    .container {
+      gap: 32px;
+    }
+
+    &-line {
+  
+      &_big {
+        height: 128px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .container {
+      gap: 16px;
+    }
+
+    
+    &-line {
+      height: 32px;
+  
+      &_big {
+        height: 64px;
       }
     }
   }
