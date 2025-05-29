@@ -142,7 +142,7 @@
                         <p class="body-16rp">1</p>
                     </div>
                     <div class="account-table-item-inner">
-                        <div class="primary-btn body-14mu item-btn" data-item="Название предмета">отправить</div>
+                        <div class="primary-btn body-14mu item-btn" data-item="Название предмета" data-counts="200">отправить</div>
                     </div>
                 </div>
                 <div class="account-table-item">
@@ -153,7 +153,7 @@
                         <p class="body-16rp">1</p>
                     </div>
                     <div class="account-table-item-inner">
-                        <div class="primary-btn body-14mu item-btn" data-item="Название предмета">отправить</div>
+                        <div class="primary-btn body-14mu item-btn" data-item="Название предмета" data-counts="200">отправить</div>
                     </div>
                 </div>
                 <div class="account-table-item">
@@ -164,7 +164,7 @@
                         <p class="body-16rp">1</p>
                     </div>
                     <div class="account-table-item-inner">
-                        <div class="primary-btn body-14mu item-btn" data-item="Название предмета">отправить</div>
+                        <div class="primary-btn body-14mu item-btn" data-item="Название предмета" data-counts="200">отправить</div>
                     </div>
                 </div>
                 <div class="account-table-item">
@@ -175,7 +175,7 @@
                         <p class="body-16rp">1</p>
                     </div>
                     <div class="account-table-item-inner">
-                        <div class="primary-btn body-14mu item-btn" data-item="Название предмета">отправить</div>
+                        <div class="primary-btn body-14mu item-btn" data-item="Название предмета" data-counts="200">отправить</div>
                     </div>
                 </div>
             </div>
@@ -272,6 +272,7 @@
                 <img src="assets/img/close.svg" alt="svg" class="svg">
             </div>
             <input type="hidden" name="itemName" value="">
+            <input type="hidden" name="itemCounts" value="">
             <p class="h5">Отправить предмет<br> в игру</p>
             <p class="body-18rp grey">Агатион Прочелла</p>
             <label>
@@ -292,7 +293,7 @@
                         <div class="plus"></div>
                         <div class="minus"></div>
                     </div>
-                    <div class="count-all primary-btn body-12mu">Все</div>
+                    <div class="count-all primary-btn body-12mu" data-all-counts="">Все</div>
                 </div>
             </div>
             <input type="submit" value="Отправить" class="main-btn body-14mu">

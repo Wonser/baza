@@ -207,7 +207,7 @@
                                 </div>
                             </div>
                             <video preload="none" class="features-img" autoplay loop muted playsinline>
-                                <source src="assets/img/features1.mp4" type="video/mp4">
+                                <source src="assets/img/features-video.mp4" type="video/mp4">
                             </video>
                         </a>
                     </div>
@@ -221,15 +221,14 @@
                             <!-- <span class="body-18rp">
                                 Испытай Essence по-новому! Вас ждет упрощенная добыча экипировки, покупку которой можно совершить за обычное внутриигровое золото, которое добывается с монстров
                             </span> -->
-                            <picture preload="none" class="features-img">
-                                <source srcset="assets/img/features2.webp">
-                                <img src="assets/img/features2.png" alt="">
-                            </picture>
+                            <video preload="none" class="features-img" autoplay="" loop="" muted="" playsinline="">
+                                <source src="assets/img/features3.mp4" type="video/mp4">
+                            </video>
+                            <div class="video-link">
+                                скоро
+                                <img src="assets/img/play.svg" alt="" class="svg">
+                            </div>
                         </a>
-                        <div class="video-link">
-                            смотреть 
-                            <img src="assets/img/play.svg" alt="" class="svg">
-                        </div>
                     </div>
                     <div class="features-item-wrap wow newFadeInUp animated" data-wow-duration="1s"
                     data-wow-offset="300">
@@ -549,6 +548,26 @@
             </div>
         </div>
 
+        
+        <section class="banner">
+            <picture class="banner-bgbefore">
+                <source loading="lazy" srcset="assets/img/banner6.webp">
+                <img loading="lazy" src="assets/img/banner-new.png" alt="baza">
+            </picture>
+            <!-- <picture class="banner-bgafter">
+                <source loading="lazy" srcset="assets/img/banner2.webp">
+                <img loading="lazy" src="assets/img/banner2.png" alt="baza">
+            </picture> -->
+            <canvas id="canvas"></canvas>
+            <div class="container">
+                <p class="h1">новый класс<br>rose vain</p>
+                <div class="btns">
+                    <a href="#" class="main-btn body-14mu">регистрация</a>
+                    <a href="#" class="primary-btn body-14mu">Скачать файлы</a>
+                </div>
+            </div>
+        </section>
+
         <section class="minuses">
             <div class="minuses-bg"></div>
             <div class="container">
@@ -601,25 +620,6 @@
                         <span class="body-12mu">12</span>
                         <p class="h4">коллекции удалены</p>
                     </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="banner">
-            <picture class="banner-bgbefore">
-                <source loading="lazy" srcset="assets/img/banner-new.webp">
-                <img loading="lazy" src="assets/img/banner-new.png" alt="baza">
-            </picture>
-            <!-- <picture class="banner-bgafter">
-                <source loading="lazy" srcset="assets/img/banner2.webp">
-                <img loading="lazy" src="assets/img/banner2.png" alt="baza">
-            </picture> -->
-            <canvas id="canvas"></canvas>
-            <div class="container">
-                <p class="h1">шутки в сторону<br>отправляйся на базу</p>
-                <div class="btns">
-                    <a href="#" class="main-btn body-14mu">регистрация</a>
-                    <a href="#" class="primary-btn body-14mu">Скачать файлы</a>
                 </div>
             </div>
         </section>
