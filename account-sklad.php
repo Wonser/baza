@@ -29,6 +29,18 @@
             <div class="menu-account-btn close"></div>
         </div>
         <div class="account-nav-list">
+            <span class="body-12mu">Выберите сервер</span>
+            <form action="#">
+                <div class="custom-select">
+                    <select class="form-input">
+                        <option value="1" selected>SEASON 2 (NEW)</option>
+                        <option value="2">SEASON 1</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+        <div class="account-nav-devider"></div>
+        <div class="account-nav-list">
             <span class="body-12mu">личный кабинет</span>
             <a href="#" class="account-nav-list-item">
                 <img src="assets/img/nav-icon1.svg" class="svg" alt="">
